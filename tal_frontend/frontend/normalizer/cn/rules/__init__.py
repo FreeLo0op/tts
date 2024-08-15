@@ -1,0 +1,1 @@
+from tal_frontend.frontend.normalizer.cn import *

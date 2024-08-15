@@ -1,0 +1,433 @@
+------------------Tal TTS Service------------------
+=====audio name====> bert_test_1.wav
+===> tn time: (6.92) ms
+poly phonemes: ['si1', 'si1', 'shi4', 'hao3', 'de5', 'yuan2', 'IH1 Z']
+g2p bert res: [['小 思 小 思 我 是 好 未 来 的 员 工 ', ['x iao3', 's  ii1', 'x iao3', 's  ii1', 'uo3', 'sh  iii4', 'h  ao3', 'uei4', 'l ai2', 'd  e5', 'van2', 'g ong1'], 'cn'], ['my name is jack ', ['M AY1', 'N EY1 M', 'IH1 Z', 'JH AE1 K'], 'en']]
+g2p res: ['x iao3', 's ii1', 'x iao3', 's ii1', ' uo3', 'sh iii4', 'h ao3', ' uei4', 'l ai2', 'd e5', ' van2', 'g ong1', 'M AY1', 'N EY1 M', 'IH1 Z', 'JH AE1 K']
+['小', '思', '小', '思', '，', '我', '是', '好', '未', '来', '的', '员', '工', '。', 'my', 'name', 'is', 'jack']
+['小思小思& 我是好未来的员工& & & & &']
+rhy_res ==> ['0', '#0', '0', '#1', '0', '#0', '0', '#3', '0', '#0', '0', '#1', '0', '#0', '#0', '0', '#1', '0', '#1', '#0', '0', '#3', '0', '0', '#1', '0', '0', '#1', '0', '#1', '0', '0', '#1']
+phonemes_res ==> ['x', 'iao3', 's', 'ii1', 'x', 'iao3', 's', 'ii1', 'sp3', 'uo3', 'sh', 'iii4', 'h', 'ao3', 'uei4', 'l', 'ai2', 'd', 'e5', 'van2', 'g', 'ong1', 'sp3', 'M', 'AY1', 'N', 'EY1', 'M', 'IH1', 'Z', 'JH', 'AE1', 'K']
+===> bert  time: (280.73) ms
+[['1', 1, [1, 28, 164, 24, 182, 28, 164, 24, 182, 7, 354, 25, 195, 15, 74, 325, 18, 43, 12, 86, 373, 14, 252, 7, 423, 452, 424, 461, 423, 464, 434, 420, 440, 421, 8], '1', '1', '1', {}, [1, 1, 2, 1, 3, 1, 2, 1, 5, 1, 2, 1, 3, 1, 2, 2, 1, 3, 1, 3, 2, 1, 5, 1, 1, 3, 1, 1, 3, 1, 3, 1, 1, 3, 1]]]
+{'text': '小思小思， 我是好未来的员工。 my name is jack', 'phoneme': 'x iao3 s ii1 x iao3 s ii1 sp3 uo3 sh iii4 h ao3 uei4 l ai2 d e5 van2 g ong1 sp3 M AY1 N EY1 M IH1 Z JH AE1 K', 'audio_info': {'voice_type': 'xiaosi', 'emotion': 'neutral', 'lang': 'cn', 'audio_format': 'wav', 'rate': '1', 'pitch': '1', 'volume': '1'}, 'prosody': '0 #0 0 #1 0 #0 0 #3 0 #0 0 #1 0 #0 #0 0 #1 0 #1 #0 0 #3 0 0 #1 0 0 #1 0 #1 0 0 #1', 'time_log': {'process_time': 0.9301390647888184, 'tts_time': 0.16835927963256836, 'insert_time': 0.0005588531494140625, 'convert_time': 0.0006520748138427734}}
+------------------Tal TTS Service------------------
+=====audio name====> bert_test_2.wav
+===> tn time: (6.07) ms
+poly phonemes: ['xu1', 'yao1', 'chang2', 'fang1', 'de5', 'du4']
+g2p bert res: [['我 们 需 要 求 出 长 方 形 的 宽 度 ', ['uo3', 'm en2', 'x  v1', 'iao1', 'q iou2', 'ch u1', 'ch  ang2', 'f  ang1', 'x ing2', 'd  e5', 'k uan1', 'd  u4'], 'cn'], ['x ', ['EH1 K S'], 'en']]
+g2p res: [' uo3', 'm en5', 'x v1', ' iao1', 'q iou2', 'ch u1', 'ch ang2', 'f ang1', 'x ing2', 'd e5', 'k uan1', 'd u4', 'EH1 K S']
+['我', '们', '需', '要', '求', '出', '长', '方', '形', '的', '宽', '度', 'x', '。']
+['我们需要求出长方形的宽度&&']
+rhy_res ==> ['#0', '0', '#1', '0', '#0', '#1', '0', '#0', '0', '#1', '0', '#0', '0', '#0', '0', '#0', '0', '#1', '0', '#0', '0', '#1', '0', '0', '#3', '0']
+phonemes_res ==> ['uo3', 'm', 'en5', 'x', 'v1', 'iao1', 'q', 'iou2', 'ch', 'u1', 'ch', 'ang2', 'f', 'ang1', 'x', 'ing2', 'd', 'e5', 'k', 'uan1', 'd', 'u4', 'EH1', 'K', 'S', 'sp3']
+===> bert  time: (248.91) ms
+[['1', 1, [1, 354, 19, 101, 28, 362, 162, 22, 233, 11, 272, 11, 63, 13, 62, 28, 213, 12, 86, 17, 302, 12, 275, 455, 421, 427, 8], '1', '1', '1', {}, [1, 2, 1, 3, 1, 2, 3, 1, 2, 1, 3, 1, 2, 1, 2, 1, 2, 1, 3, 1, 2, 1, 3, 1, 1, 5, 1]]]
+{'text': '我们需要求出长方形的宽度x。', 'phoneme': 'uo3 m en5 x v1 iao1 q iou2 ch u1 ch ang2 f ang1 x ing2 d e5 k uan1 d u4 EH1 K S sp3', 'audio_info': {'voice_type': 'xiaosi', 'emotion': 'neutral', 'lang': 'cn', 'audio_format': 'wav', 'rate': '1', 'pitch': '1', 'volume': '1'}, 'prosody': '#0 0 #1 0 #0 #1 0 #0 0 #1 0 #0 0 #0 0 #0 0 #1 0 #0 0 #1 0 0 #3 0', 'time_log': {'process_time': 0.9473006725311279, 'tts_time': 0.8524723052978516, 'insert_time': 0.0004646778106689453, 'convert_time': 0.0006160736083984375}}
+------------------Tal TTS Service------------------
+=====audio name====> bert_test_3.wav
+===> tn time: (16.94) ms
+poly phonemes: ['zhe4', 'dao4', 'yao4', 'jie3', 'de5', 'shi4', 'yi2', 'ge4', 'jiao3', 'de5', 'jiao3', 'de5', 'du4', 'shu4']
+g2p bert res: [['这 道 题 要 我 们 解 决 的 问 题 是 求 一 个 等 腰 三 角 形 的 顶 角 的 度 数 ', ['zh  e4', 'd  ao4', 't i2', 'iao4', 'uo3', 'm en2', 'j  ie3', 'j ve2', 'd  e5', 'w en4', 't i2', 'sh  iii4', 'q iou2', 'i2', 'g  e4', 'd eng3', 'iao1', 's an1', 'j  iao3', 'x ing2', 'd  e5', 'd ing3', 'j  iao3', 'd  e5', 'd  u4', 'sh  u4'], 'cn']]
+g2p res: ['zh e4', 'd ao4', 't i2', ' iao4', ' uo3', 'm en5', 'j ie3', 'j ve2', 'd e5', 'w en4', 't i2', 'sh iii4', 'q iou2', ' i2', 'g e5', 'd eng3', ' iao1', 's an1', 'j iao3', 'x ing2', 'd e5', 'd ing2', 'j iao3', 'd e5', 'd u4', 'sh u4']
+['这', '道', '题', '要', '我', '们', '解', '决', '的', '问', '题', '是', '求', '一', '个', '等', '腰', '三', '角', '形', '的', '顶', '角', '的', '度', '数', '，']
+['这道题要我们解决的问题是求一个等腰三角形的顶角的度数&']
+rhy_res ==> ['0', '#0', '0', '#0', '0', '#2', '#0', '#0', '0', '#1', '0', '#0', '0', '#0', '0', '#1', '0', '#0', '0', '#2', '0', '#0', '0', '#1', '#0', '0', '#1', '0', '#0', '#1', '0', '#0', '0', '#0', '0', '#0', '0', '#1', '0', '#0', '0', '#0', '0', '#1', '0', '#0', '0', '#3', '0']
+phonemes_res ==> ['zh', 'e4', 'd', 'ao4', 't', 'i2', 'iao4', 'uo3', 'm', 'en5', 'j', 'ie3', 'j', 've2', 'd', 'e5', 'w', 'en4', 't', 'i2', 'sh', 'iii4', 'q', 'iou2', 'i2', 'g', 'e5', 'd', 'eng3', 'iao1', 's', 'an1', 'j', 'iao3', 'x', 'ing2', 'd', 'e5', 'd', 'ing2', 'j', 'iao3', 'd', 'e5', 'd', 'u4', 'sh', 'u4', 'sp3']
+===> bert  time: (296.56) ms
+poly phonemes: ['yi3', 'zhi1', 'ta1', 'de5', 'yi2', 'ge4', 'di3', 'jiao3', 'de5', 'du4', 'shu4', 'wei2', 'du4']
+g2p bert res: [['已 知 它 的 一 个 底 角 的 度 数 为 ', ['i3', 'zh  iii1', 't  a1', 'd  e5', 'i2', 'g  e4', 'd  i3', 'j  iao3', 'd  e5', 'd  u4', 'sh  u4', 'uei2'], 'cn'], ['x ', ['EH1 K S'], 'en'], ['度 ', ['d  u4'], 'cn']]
+g2p res: [' i3', 'zh iii1', 't a1', 'd e5', ' i2', 'g e5', 'd i2', 'j iao3', 'd e5', 'd u4', 'sh u4', ' uei2', 'EH1 K S', 'd u4']
+['已', '知', '它', '的', '一', '个', '底', '角', '的', '度', '数', '为', 'x', '度', '。']
+['已知它的一个底角的度数为&度&']
+rhy_res ==> ['#0', '0', '#1', '0', '#0', '0', '#1', '#0', '0', '#1', '0', '#0', '0', '#0', '0', '#1', '0', '#0', '0', '#0', '#1', '0', '0', '#1', '0', '#3', '0']
+phonemes_res ==> ['i3', 'zh', 'iii1', 't', 'a1', 'd', 'e5', 'i2', 'g', 'e5', 'd', 'i2', 'j', 'iao3', 'd', 'e5', 'd', 'u4', 'sh', 'u4', 'uei2', 'EH1', 'K', 'S', 'd', 'u4', 'sp3']
+===> bert  time: (222.69) ms
+[['1', 1, [1, 31, 85, 12, 75, 26, 123, 165, 354, 19, 101, 16, 174, 16, 383, 12, 86, 27, 100, 26, 123, 25, 195, 22, 233, 123, 14, 86, 12, 109, 162, 24, 52, 16, 164, 28, 213, 12, 86, 12, 213, 16, 164, 12, 86, 12, 275, 25, 275, 8], '1', '1', '1', {}, [1, 1, 2, 1, 2, 1, 4, 2, 2, 1, 3, 1, 2, 1, 2, 1, 3, 1, 2, 1, 4, 1, 2, 1, 3, 2, 1, 3, 1, 2, 3, 1, 2, 1, 2, 1, 2, 1, 3, 1, 2, 1, 2, 1, 3, 1, 2, 1, 5, 1]], ['1', 2, [1, 124, 31, 192, 26, 32, 12, 86, 123, 14, 86, 12, 123, 16, 164, 12, 86, 12, 275, 25, 275, 323, 455, 421, 427, 12, 275, 8], '1', '1', '1', {}, [1, 2, 1, 3, 1, 2, 1, 3, 2, 1, 3, 1, 2, 1, 2, 1, 3, 1, 2, 1, 2, 3, 1, 1, 3, 1, 5, 1]]]
+{'text': '这道题要我们解决的问题是求一个等腰三角形的顶角的度数，/已知它的一个底角的度数为x度。', 'phoneme': 'zh e4 d ao4 t i2 iao4 uo3 m en5 j ie3 j ve2 d e5 w en4 t i2 sh iii4 q iou2 i2 g e5 d eng3 iao1 s an1 j iao3 x ing2 d e5 d ing2 j iao3 d e5 d u4 sh u4 sp3 i3 zh iii1 t a1 d e5 i2 g e5 d i2 j iao3 d e5 d u4 sh u4 uei2 EH1 K S d u4 sp3', 'audio_info': {'voice_type': 'xiaosi', 'emotion': 'neutral', 'lang': 'cn', 'audio_format': 'wav', 'rate': '1', 'pitch': '1', 'volume': '1'}, 'prosody': '0 #0 0 #0 0 #2 #0 #0 0 #1 0 #0 0 #0 0 #1 0 #0 0 #2 0 #0 0 #1 #0 0 #1 0 #0 #1 0 #0 0 #0 0 #0 0 #1 0 #0 0 #0 0 #1 0 #0 0 #3 #0 0 #1 0 #0 0 #1 #0 0 #1 0 #0 0 #0 0 #1 0 #0 0 #0 #1 0 0 #1 0 #3 0', 'time_log': {'process_time': 1.1795294284820557, 'tts_time': 1.2783899307250977, 'insert_time': 0.001041412353515625, 'convert_time': 0.0013108253479003906}}
+------------------Tal TTS Service------------------
+=====audio name====> bert_ssml_test_1.wav
+-------ssml------
+------------------Tal TTS Service------------------
+=====audio name====> bert_ssml_test_1.wav
+-------ssml------
+poly phonemes: ['hao3', 'a5', 'qi4']
+g2p bert res: [['你 好 啊 今 天 天 气 ', ['n i3', 'h  ao3', 'a5', 'j in1', 't ian1', 't ian1', 'q  i4'], 'cn']]
+g2p res: ['n i2', 'h ao3', ' a5', 'j in1', 't ian1', 't ian1', 'q i4']
+['你', '好', '啊', ',', '今', '天', '天', '气']
+['你好啊 & 今天天气']
+rhy_res ==> ['0', '#0', '0', '#0', '#3', '0', '0', '#0', '0', '#1', '0', '#0', '0', '#0']
+phonemes_res ==> ['n', 'i2', 'h', 'ao3', 'a5', 'sp3', 'j', 'in1', 't', 'ian1', 't', 'ian1', 'q', 'i4']
+{'text': '你好啊 , 今天天气', 'phoneme': 'n i2 h ao3 a5 sp3 j in1 t ian1 t ian1 q i4', 'audio_info': {'voice_type': 'xiaosi', 'emotion': 'happy', 'lang': 'cn', 'audio_format': 'wav', 'rate': '1.1', 'pitch': '1.0', 'volume': '0.9'}, 'prosody': '0 #0 0 #0 #3 0 0 #0 0 #1 0 #0 0 #0', 'time_log': {'process_time': 0.8496220111846924, 'tts_time': 0.7480509281158447, 'insert_time': 0.0005192756652832031, 'convert_time': 0.0006396770477294922}}
+------------------Tal TTS Service------------------
+=====audio name====> bert_ssml_test_2.wav
+-------ssml------
+------------------Tal TTS Service------------------
+=====audio name====> bert_ssml_test_2.wav
+-------ssml------
+------------------Tal TTS Service------------------
+=====audio name====> bert_ssml_test_2.wav
+-------ssml------
+poly phonemes: []
+g2p bert res: [['ello word ', ['EH1 L OW0', 'W ER1 D'], 'en']]
+g2p res: ['EH1 L OW0', 'W ER1 D']
+['r', 'i', 'a', 'n', 'g', 'l', 'e']
+['& & & & & & & A B E']
+------------------Tal TTS Service------------------
+=====audio name====> bert_ssml_test_2.wav
+-------ssml------
+poly phonemes: ['HH EH0 L OW1']
+g2p bert res: [['hello word ', ['HH EH0 L OW1', 'W ER1 D'], 'en']]
+g2p res: ['HH EH0 L OW1', 'W ER1 D']
+['r', 'i', 'a', 'n', 'g', 'l', 'e']
+['& & & & & & & A B E']
+------------------Tal TTS Service------------------
+=====audio name====> bert_ssml_test_2.wav
+-------ssml------
+[['break', '', '3000ms'], ['pinyin', 'HH AH0 L OW1 / W ER1 D /', ['Hello', 'word!']], ['break', '', '100ms'], ['pinyin', 'i4/h uei2/er2/j ia1/b an1/', ['一', '会', '儿', '加', '班']], ['break', '', '1000ms'], ['text', '', '下面是latex格式的数学公式，'], ['math', 'latex', '\\triangle OCM\\cong \\triangle ABE'], ['break', '', '1000ms'], ['text', '', '下面是asciimath格式的数学公式，'], ['math', 'asciimath', 'ax^2+bx+c=0'], ['text', '', '下面是mathml格式的数学公式，'], ['math', 'mathml', '<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>a</mi><mrow><msup><mrow><mi>x</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow><mo>+</mo><mi>b</mi><mi>x</mi><mo>+</mo><mi>c</mi><mo>=</mo><mn>0</mn></math>']]
+三角形 O C M 近似等于 三角形 A B E
+a x 的平方 加 b x 加 c 等于 零
+a x 的平方 加 b x 加 c 等于 零
+poly phonemes: ['HH EH0 L OW1']
+g2p bert res: [['hello word ', ['HH EH0 L OW1', 'W ER1 D'], 'en']]
+g2p res: ['HH EH0 L OW1', 'W ER1 D']
+['等', '于', '零']
+['等于零']
+------------------Tal TTS Service------------------
+=====audio name====> bert_ssml_test_2.wav
+-------ssml------
+[['break', '', '3000ms'], ['pinyin', 'HH AH0 L OW1 / W ER1 D /', ['Hello', 'word!']], ['break', '', '100ms'], ['pinyin', 'i4/h uei2/er2/j ia1/b an1/', ['一', '会', '儿', '加', '班']], ['break', '', '1000ms'], ['text', '', '下面是latex格式的数学公式，'], ['math', 'latex', '\\triangle OCM\\cong \\triangle ABE'], ['break', '', '1000ms'], ['text', '', '下面是asciimath格式的数学公式，'], ['math', 'asciimath', 'ax^2+bx+c=0'], ['text', '', '下面是mathml格式的数学公式，'], ['math', 'mathml', '<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>a</mi><mrow><msup><mrow><mi>x</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow><mo>+</mo><mi>b</mi><mi>x</mi><mo>+</mo><mi>c</mi><mo>=</mo><mn>0</mn></math>']]
+三角形 O C M 近似等于 三角形 A B E
+a x 的平方 加 b x 加 c 等于 零
+a x 的平方 加 b x 加 c 等于 零
+poly phonemes: ['HH EH0 L OW1']
+hello
+g2p bert res: [['hello word ', ['HH EH0 L OW1', 'W ER1 D'], 'en']]
+g2p res: ['HH EH0 L OW1', 'W ER1 D']
+['hello', 'word', '!']
+['& &&']
+post process
+['hello', 'word', '!']
+[0, 0, 0]
+['HH EH0 L OW1', 'W ER1 D']
+rhy_res ==> ['0', '0', '0', '#1', '0', '0', '#3', '0']
+phonemes_res ==> ['HH', 'EH0', 'L', 'OW1', 'W', 'ER1', 'D', 'sp3']
+poly phonemes: ['yi2', 'hui4', 'xer']
+g2p bert res: [['一 会 儿 加 班 ', ['i2', 'h  uei4', 'er2', 'j ia1', 'b an1'], 'cn']]
+g2p res: [' i2', 'h uei4', ' er2', 'j ia1', 'b an1']
+['一', '会', '儿', '加', '班']
+['一 会 儿 加 班']
+post process
+['一', '会', '儿', '加', '班']
+[1, 1, 2, 1, 1]
+[' i2', 'h uei4', ' er2', 'j ia1', 'b an1']
+rhy_res ==> ['#0', '0', '#0', '#1', '0', '#0', '0', '#0']
+phonemes_res ==> ['i2', 'h', 'uei4', 'er2', 'j', 'ia1', 'b', 'an1']
+poly phonemes: ['shi4', 'ge2', 'shi4', 'de5', 'shu4', 'shi4', 'jiao3', 'si4', 'yu2', 'jiao3', 'AH0']
+a
+g2p bert res: [['下 面 是 ', ['x ia4', 'm ian4', 'sh  iii4'], 'cn'], ['latex ', ['L EY1 T EH2 K S'], 'en'], ['格 式 的 数 学 公 式 三 角 形 ', ['g  e2', 'sh  iii4', 'd  e5', 'sh  u4', 'x ve2', 'g ong1', 'sh  iii4', 's an1', 'j  iao3', 'x ing2'], 'cn'], ['o c m ', ['OW1', 'S IY1', 'EH1 M'], 'en'], ['近 似 等 于 三 角 形 ', ['j in4', 's  ii4', 'd eng3', 'v2', 's an1', 'j  iao3', 'x ing2'], 'cn'], ['a b e ', ['AH0', 'B IY1', 'IY1'], 'en']]
+g2p res: ['x ia4', 'm ian4', 'sh iii4', 'L EY1 T EH2 K S', 'g e2', 'sh iii4', 'd e5', 'sh u4', 'x ve2', 'g ong1', 'sh iii4', 's an1', 'j iao3', 'x ing2', 'OW1', 'S IY1', 'EH1 M', 'j in4', 's ii4', 'd eng3', ' v2', 's an1', 'j iao3', 'x ing2', 'AH0', 'B IY1', 'IY1']
+['下', '面', '是', 'latex', '格', '式', '的', '数', '学', '公', '式', '，', '三', '角', '形', 'o', 'c', 'm', '近', '似', '等', '于', '三', '角', '形', 'a', 'b', 'e']
+['下面是 & 格式的数学公式& 三角形 & & & 近似等于三角形 & & &']
+post process
+['下', '面', '是', 'latex', '格', '式', '的', '数', '学', '公', '式', '，', '三', '角', '形', 'o', 'c', 'm', '近', '似', '等', '于', '三', '角', '形', 'a', 'b', 'e']
+[1, 2, 1, 0, 1, 1, 2, 1, 2, 1, 1, 0, 1, 1, 1, 0, 0, 0, 1, 2, 1, 2, 1, 1, 1, 0, 0, 0]
+['x ia4', 'm ian4', 'sh iii4', 'L EY1 T EH2 K S', 'g e2', 'sh iii4', 'd e5', 'sh u4', 'x ve2', 'g ong1', 'sh iii4', 's an1', 'j iao3', 'x ing2', 'OW1', 'S IY1', 'EH1 M', 'j in4', 's ii4', 'd eng3', ' v2', 's an1', 'j iao3', 'x ing2', 'AH0', 'B IY1', 'IY1']
+rhy_res ==> ['0', '#0', '0', '#1', '0', '#1', '0', '0', '0', '0', '0', '#1', '0', '#0', '0', '#0', '0', '#1', '0', '#0', '0', '#1', '0', '#0', '0', '#3', '0', '0', '#0', '0', '#0', '0', '#1', '#1', '0', '#1', '0', '#1', '0', '#0', '0', '#1', '0', '#0', '#1', '0', '#0', '0', '#0', '0', '#1', '#1', '0', '#1', '#1']
+phonemes_res ==> ['x', 'ia4', 'm', 'ian4', 'sh', 'iii4', 'L', 'EY1', 'T', 'EH2', 'K', 'S', 'g', 'e2', 'sh', 'iii4', 'd', 'e5', 'sh', 'u4', 'x', 've2', 'g', 'ong1', 'sh', 'iii4', 'sp3', 's', 'an1', 'j', 'iao3', 'x', 'ing2', 'OW1', 'S', 'IY1', 'EH1', 'M', 'j', 'in4', 's', 'ii4', 'd', 'eng3', 'v2', 's', 'an1', 'j', 'iao3', 'x', 'ing2', 'AH0', 'B', 'IY1', 'IY1']
+poly phonemes: ['shi4', 'ge2', 'shi4', 'de5', 'shu4', 'shi4', 'AH0', 'de5', 'ping2', 'fang1', 'yu2', 'ling2', 'shi4']
+a
+g2p bert res: [['下 面 是 ', ['x ia4', 'm ian4', 'sh  iii4'], 'cn'], ['asciimath ', ['#3'], 'en'], ['格 式 的 数 学 公 式 ', ['g  e2', 'sh  iii4', 'd  e5', 'sh  u4', 'x ve2', 'g ong1', 'sh  iii4'], 'cn'], ['a x ', ['AH0', 'EH1 K S'], 'en'], ['的 平 方 加 ', ['d  e5', 'p  ing2', 'f  ang1', 'j ia1'], 'cn'], ['b x ', ['B IY1', 'EH1 K S'], 'en'], ['加 ', ['j ia1'], 'cn'], ['c ', ['S IY1'], 'en'], ['等 于 零 下 面 是 ', ['d eng3', 'v2', 'l  ing2', 'x ia4', 'm ian4', 'sh  iii4'], 'cn']]
+g2p res: ['x ia4', 'm ian4', 'sh iii4', '#3', 'g e2', 'sh iii4', 'd e5', 'sh u4', 'x ve2', 'g ong1', 'sh iii4', 'AH0', 'EH1 K S', 'd e5', 'p ing2', 'f ang1', 'j ia1', 'B IY1', 'EH1 K S', 'j ia1', 'S IY1', 'd eng3', ' v2', 'l ing2', 'x ia4', 'm ian4', 'sh iii4']
+['下', '面', '是', 'asciimath', '格', '式', '的', '数', '学', '公', '式', '，', 'a', 'x', '的', '平', '方', '加', 'b', 'x', '加', 'c', '等', '于', '零', '下', '面', '是']
+['下面是 & 格式的数学公式& & & 的平方加  & & 加 & 等于零 下面是']
+post process
+['下', '面', '是', 'asciimath', '格', '式', '的', '数', '学', '公', '式', '，', 'a', 'x', '的', '平', '方', '加', 'b', 'x', '加', 'c', '等', '于', '零', '下', '面', '是']
+[1, 2, 1, 0, 1, 1, 2, 1, 2, 1, 1, 0, 0, 0, 2, 1, 1, 1, 0, 0, 1, 0, 1, 2, 4, 1, 2, 1]
+['x ia4', 'm ian4', 'sh iii4', '#3', 'g e2', 'sh iii4', 'd e5', 'sh u4', 'x ve2', 'g ong1', 'sh iii4', 'AH0', 'EH1 K S', 'd e5', 'p ing2', 'f ang1', 'j ia1', 'B IY1', 'EH1 K S', 'j ia1', 'S IY1', 'd eng3', ' v2', 'l ing2', 'x ia4', 'm ian4', 'sh iii4']
+rhy_res ==> ['0', '#0', '0', '#1', '0', '#3', '0', '0', '#0', '0', '#0', '0', '#1', '0', '#0', '0', '#1', '0', '#0', '0', '#3', '0', '#1', '0', '0', '#1', '0', '#1', '0', '#0', '0', '#0', '0', '#1', '0', '#1', '0', '0', '#1', '0', '#1', '0', '#1', '0', '#0', '#1', '0', '#3', '0', '#0', '0', '#1', '0', '#0']
+phonemes_res ==> ['x', 'ia4', 'm', 'ian4', 'sh', 'iii4', 'sp3', 'g', 'e2', 'sh', 'iii4', 'd', 'e5', 'sh', 'u4', 'x', 've2', 'g', 'ong1', 'sh', 'iii4', 'sp3', 'AH0', 'EH1', 'K', 'S', 'd', 'e5', 'p', 'ing2', 'f', 'ang1', 'j', 'ia1', 'B', 'IY1', 'EH1', 'K', 'S', 'j', 'ia1', 'S', 'IY1', 'd', 'eng3', 'v2', 'l', 'ing2', 'x', 'ia4', 'm', 'ian4', 'sh', 'iii4']
+poly phonemes: ['ge2', 'shi4', 'de5', 'shu4', 'shi4', 'AH0', 'de5', 'ping2', 'fang1', 'yu2', 'ling2']
+a
+g2p bert res: [['mathml ', ['M AE1 TH M AH0 L'], 'en'], ['格 式 的 数 学 公 式 ', ['g  e2', 'sh  iii4', 'd  e5', 'sh  u4', 'x ve2', 'g ong1', 'sh  iii4'], 'cn'], ['a x ', ['AH0', 'EH1 K S'], 'en'], ['的 平 方 加 ', ['d  e5', 'p  ing2', 'f  ang1', 'j ia1'], 'cn'], ['b x ', ['B IY1', 'EH1 K S'], 'en'], ['加 ', ['j ia1'], 'cn'], ['c ', ['S IY1'], 'en'], ['等 于 零 ', ['d eng3', 'v2', 'l  ing2'], 'cn']]
+g2p res: ['M AE1 TH M AH0 L', 'g e2', 'sh iii4', 'd e5', 'sh u4', 'x ve2', 'g ong1', 'sh iii4', 'AH0', 'EH1 K S', 'd e5', 'p ing2', 'f ang1', 'j ia1', 'B IY1', 'EH1 K S', 'j ia1', 'S IY1', 'd eng3', ' v2', 'l ing2']
+['mathml', '格', '式', '的', '数', '学', '公', '式', '，', 'a', 'x', '的', '平', '方', '加', 'b', 'x', '加', 'c', '等', '于', '零']
+['& 格式的数学公式& & & 的平方加  & & 加 & 等于零']
+post process
+['mathml', '格', '式', '的', '数', '学', '公', '式', '，', 'a', 'x', '的', '平', '方', '加', 'b', 'x', '加', 'c', '等', '于', '零']
+[0, 1, 1, 2, 1, 2, 1, 1, 0, 0, 0, 2, 1, 1, 1, 0, 0, 1, 0, 1, 2, 1]
+['M AE1 TH M AH0 L', 'g e2', 'sh iii4', 'd e5', 'sh u4', 'x ve2', 'g ong1', 'sh iii4', 'AH0', 'EH1 K S', 'd e5', 'p ing2', 'f ang1', 'j ia1', 'B IY1', 'EH1 K S', 'j ia1', 'S IY1', 'd eng3', ' v2', 'l ing2']
+rhy_res ==> ['0', '0', '0', '0', '0', '#1', '0', '#0', '0', '#0', '0', '#1', '0', '#0', '0', '#1', '0', '#0', '0', '#3', '0', '#1', '0', '0', '#1', '0', '#1', '0', '#0', '0', '#0', '0', '#1', '0', '#1', '0', '0', '#1', '0', '#1', '0', '#1', '0', '#0', '#1', '0', '#0']
+phonemes_res ==> ['M', 'AE1', 'TH', 'M', 'AH0', 'L', 'g', 'e2', 'sh', 'iii4', 'd', 'e5', 'sh', 'u4', 'x', 've2', 'g', 'ong1', 'sh', 'iii4', 'sp3', 'AH0', 'EH1', 'K', 'S', 'd', 'e5', 'p', 'ing2', 'f', 'ang1', 'j', 'ia1', 'B', 'IY1', 'EH1', 'K', 'S', 'j', 'ia1', 'S', 'IY1', 'd', 'eng3', 'v2', 'l', 'ing2']
+{'text': '#9 hello word! #9 一 会 儿 加 班 #9 下面是 latex 格式的数学公式， 三角形 o c m 近似等于三角形 a b e #9 下面是 asciimath 格式的数学公式， a x 的平方加  b x 加 c 等于零 下面是 mathml 格式的数学公式， a x 的平方加  b x 加 c 等于零', 'phoneme': 'HH AH0 L OW1 W ER1 D i4 h uei2 er2 j ia1 b an1 x ia4 m ian4 sh iii4 L EY1 T EH2 K S g e2 sh iii4 d e5 sh u4 x ve2 g ong1 sh iii4 sp3 s an1 j iao3 x ing2 OW1 S IY1 EH1 M j in4 s ii4 d eng3 v2 s an1 j iao3 x ing2 AH0 B IY1 IY1 x ia4 m ian4 sh iii4 sp3 g e2 sh iii4 d e5 sh u4 x ve2 g ong1 sh iii4 sp3 AH0 EH1 K S d e5 p ing2 f ang1 j ia1 B IY1 EH1 K S j ia1 S IY1 d eng3 v2 l ing2 x ia4 m ian4 sh iii4 M AE1 TH M AH0 L g e2 sh iii4 d e5 sh u4 x ve2 g ong1 sh iii4 sp3 AH0 EH1 K S d e5 p ing2 f ang1 j ia1 B IY1 EH1 K S j ia1 S IY1 d eng3 v2 l ing2', 'audio_info': {'voice_type': 'xiaosi', 'emotion': 'happy', 'lang': 'cn', 'audio_format': 'wav', 'rate': '1', 'pitch': '1', 'volume': '1'}, 'prosody': '0 0 0 #1 0 0 #3 0 #0 0 #0 #1 0 #0 0 #0 0 #0 0 #1 0 #1 0 0 0 0 0 #1 0 #0 0 #0 0 #1 0 #0 0 #1 0 #0 0 #3 0 0 #0 0 #0 0 #1 #1 0 #1 0 #1 0 #0 0 #1 0 #0 #1 0 #0 0 #0 0 #1 #1 0 #1 #1 0 #0 0 #1 0 #3 0 0 #0 0 #0 0 #1 0 #0 0 #1 0 #0 0 #3 0 #1 0 0 #1 0 #1 0 #0 0 #0 0 #1 0 #1 0 0 #1 0 #1 0 #1 0 #0 #1 0 #3 0 #0 0 #1 0 #0 0 0 0 0 0 #1 0 #0 0 #0 0 #1 0 #0 0 #1 0 #0 0 #3 0 #1 0 0 #1 0 #1 0 #0 0 #0 0 #1 0 #1 0 0 #1 0 #1 0 #1 0 #0 #1 0 #0', 'time_log': {'process_time': 1.9582970142364502, 'tts_time': 0.2656710147857666, 'insert_time': 0.002208232879638672, 'convert_time': 0.0025069713592529297}}
+------------------Tal TTS Service------------------
+=====audio name====> bert_ssml_test_2.wav
+-------ssml------
+[['break', '', '3000ms'], ['pinyin', 'HH AH0 L OW1 / W ER1 D /', ['Hello', 'word!']], ['break', '', '100ms'], ['pinyin', 'i4/h uei2/er2/j ia1/b an1/', ['一', '会', '儿', '加', '班']], ['break', '', '1000ms'], ['text', '', '下面是latex格式的数学公式，'], ['math', 'latex', '\\triangle OCM\\cong \\triangle ABE'], ['break', '', '1000ms'], ['text', '', '下面是asciimath格式的数学公式，'], ['math', 'asciimath', 'ax^2+bx+c=0'], ['text', '', '下面是mathml格式的数学公式，'], ['math', 'mathml', '<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>a</mi><mrow><msup><mrow><mi>x</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow><mo>+</mo><mi>b</mi><mi>x</mi><mo>+</mo><mi>c</mi><mo>=</mo><mn>0</mn></math>']]
+三角形 O C M 近似等于 三角形 A B E
+a x 的平方 加 b x 加 c 等于 零
+a x 的平方 加 b x 加 c 等于 零
+poly phonemes: ['HH EH0 L OW1']
+hello
+g2p bert res: [['hello word ', ['HH EH0 L OW1', 'W ER1 D'], 'en']]
+g2p res: ['HH EH0 L OW1', 'W ER1 D']
+['hello', 'word', '!']
+['& &&']
+post process
+['hello', 'word', '!']
+[0, 0, 0]
+['HH EH0 L OW1', 'W ER1 D']
+rhy_res ==> ['0', '0', '0', '#1', '0', '0', '#3', '0']
+phonemes_res ==> ['HH', 'EH0', 'L', 'OW1', 'W', 'ER1', 'D', 'sp3']
+poly phonemes: ['yi2', 'hui4', 'xer']
+g2p bert res: [['一 会 儿 加 班 ', ['i2', 'h  uei4', 'er2', 'j ia1', 'b an1'], 'cn']]
+g2p res: [' i2', 'h uei4', ' er2', 'j ia1', 'b an1']
+['一', '会', '儿', '加', '班']
+['一 会 儿 加 班']
+post process
+['一', '会', '儿', '加', '班']
+[1, 1, 2, 1, 1]
+[' i2', 'h uei4', ' er2', 'j ia1', 'b an1']
+rhy_res ==> ['#0', '0', '#0', '#1', '0', '#0', '0', '#0']
+phonemes_res ==> ['i2', 'h', 'uei4', 'er2', 'j', 'ia1', 'b', 'an1']
+poly phonemes: ['shi4', 'ge2', 'shi4', 'de5', 'shu4', 'shi4', 'jiao3', 'si4', 'yu2', 'jiao3', 'AH0']
+a
+g2p bert res: [['下 面 是 ', ['x ia4', 'm ian4', 'sh  iii4'], 'cn'], ['latex ', ['L EY1 T EH2 K S'], 'en'], ['格 式 的 数 学 公 式 三 角 形 ', ['g  e2', 'sh  iii4', 'd  e5', 'sh  u4', 'x ve2', 'g ong1', 'sh  iii4', 's an1', 'j  iao3', 'x ing2'], 'cn'], ['o c m ', ['OW1', 'S IY1', 'EH1 M'], 'en'], ['近 似 等 于 三 角 形 ', ['j in4', 's  ii4', 'd eng3', 'v2', 's an1', 'j  iao3', 'x ing2'], 'cn'], ['a b e ', ['AH0', 'B IY1', 'IY1'], 'en']]
+g2p res: ['x ia4', 'm ian4', 'sh iii4', 'L EY1 T EH2 K S', 'g e2', 'sh iii4', 'd e5', 'sh u4', 'x ve2', 'g ong1', 'sh iii4', 's an1', 'j iao3', 'x ing2', 'OW1', 'S IY1', 'EH1 M', 'j in4', 's ii4', 'd eng3', ' v2', 's an1', 'j iao3', 'x ing2', 'AH0', 'B IY1', 'IY1']
+['下', '面', '是', 'latex', '格', '式', '的', '数', '学', '公', '式', '，', '三', '角', '形', 'o', 'c', 'm', '近', '似', '等', '于', '三', '角', '形', 'a', 'b', 'e']
+['下面是 & 格式的数学公式& 三角形 & & & 近似等于三角形 & & &']
+post process
+['下', '面', '是', 'latex', '格', '式', '的', '数', '学', '公', '式', '，', '三', '角', '形', 'o', 'c', 'm', '近', '似', '等', '于', '三', '角', '形', 'a', 'b', 'e']
+[1, 2, 1, 0, 1, 1, 2, 1, 2, 1, 1, 0, 1, 1, 1, 0, 0, 0, 1, 2, 1, 2, 1, 1, 1, 0, 0, 0]
+['x ia4', 'm ian4', 'sh iii4', 'L EY1 T EH2 K S', 'g e2', 'sh iii4', 'd e5', 'sh u4', 'x ve2', 'g ong1', 'sh iii4', 's an1', 'j iao3', 'x ing2', 'OW1', 'S IY1', 'EH1 M', 'j in4', 's ii4', 'd eng3', ' v2', 's an1', 'j iao3', 'x ing2', 'AH0', 'B IY1', 'IY1']
+rhy_res ==> ['0', '#0', '0', '#1', '0', '#1', '0', '0', '0', '0', '0', '#1', '0', '#0', '0', '#0', '0', '#1', '0', '#0', '0', '#1', '0', '#0', '0', '#3', '0', '0', '#0', '0', '#0', '0', '#1', '#1', '0', '#1', '0', '#1', '0', '#0', '0', '#1', '0', '#0', '#1', '0', '#0', '0', '#0', '0', '#1', '#1', '0', '#1', '#1']
+phonemes_res ==> ['x', 'ia4', 'm', 'ian4', 'sh', 'iii4', 'L', 'EY1', 'T', 'EH2', 'K', 'S', 'g', 'e2', 'sh', 'iii4', 'd', 'e5', 'sh', 'u4', 'x', 've2', 'g', 'ong1', 'sh', 'iii4', 'sp3', 's', 'an1', 'j', 'iao3', 'x', 'ing2', 'OW1', 'S', 'IY1', 'EH1', 'M', 'j', 'in4', 's', 'ii4', 'd', 'eng3', 'v2', 's', 'an1', 'j', 'iao3', 'x', 'ing2', 'AH0', 'B', 'IY1', 'IY1']
+poly phonemes: ['shi4', 'ge2', 'shi4', 'de5', 'shu4', 'shi4', 'AH0', 'de5', 'ping2', 'fang1', 'yu2', 'ling2', 'shi4']
+a
+g2p bert res: [['下 面 是 ', ['x ia4', 'm ian4', 'sh  iii4'], 'cn'], ['asciimath ', ['#3'], 'en'], ['格 式 的 数 学 公 式 ', ['g  e2', 'sh  iii4', 'd  e5', 'sh  u4', 'x ve2', 'g ong1', 'sh  iii4'], 'cn'], ['a x ', ['AH0', 'EH1 K S'], 'en'], ['的 平 方 加 ', ['d  e5', 'p  ing2', 'f  ang1', 'j ia1'], 'cn'], ['b x ', ['B IY1', 'EH1 K S'], 'en'], ['加 ', ['j ia1'], 'cn'], ['c ', ['S IY1'], 'en'], ['等 于 零 下 面 是 ', ['d eng3', 'v2', 'l  ing2', 'x ia4', 'm ian4', 'sh  iii4'], 'cn']]
+g2p res: ['x ia4', 'm ian4', 'sh iii4', '#3', 'g e2', 'sh iii4', 'd e5', 'sh u4', 'x ve2', 'g ong1', 'sh iii4', 'AH0', 'EH1 K S', 'd e5', 'p ing2', 'f ang1', 'j ia1', 'B IY1', 'EH1 K S', 'j ia1', 'S IY1', 'd eng3', ' v2', 'l ing2', 'x ia4', 'm ian4', 'sh iii4']
+['下', '面', '是', 'asciimath', '格', '式', '的', '数', '学', '公', '式', '，', 'a', 'x', '的', '平', '方', '加', 'b', 'x', '加', 'c', '等', '于', '零', '下', '面', '是']
+['下面是 & 格式的数学公式& & & 的平方加  & & 加 & 等于零 下面是']
+post process
+['下', '面', '是', 'asciimath', '格', '式', '的', '数', '学', '公', '式', '，', 'a', 'x', '的', '平', '方', '加', 'b', 'x', '加', 'c', '等', '于', '零', '下', '面', '是']
+[1, 2, 1, 0, 1, 1, 2, 1, 2, 1, 1, 0, 0, 0, 2, 1, 1, 1, 0, 0, 1, 0, 1, 2, 4, 1, 2, 1]
+['x ia4', 'm ian4', 'sh iii4', '#3', 'g e2', 'sh iii4', 'd e5', 'sh u4', 'x ve2', 'g ong1', 'sh iii4', 'AH0', 'EH1 K S', 'd e5', 'p ing2', 'f ang1', 'j ia1', 'B IY1', 'EH1 K S', 'j ia1', 'S IY1', 'd eng3', ' v2', 'l ing2', 'x ia4', 'm ian4', 'sh iii4']
+rhy_res ==> ['0', '#0', '0', '#1', '0', '#3', '0', '0', '#0', '0', '#0', '0', '#1', '0', '#0', '0', '#1', '0', '#0', '0', '#3', '0', '#1', '0', '0', '#1', '0', '#1', '0', '#0', '0', '#0', '0', '#1', '0', '#1', '0', '0', '#1', '0', '#1', '0', '#1', '0', '#0', '#1', '0', '#3', '0', '#0', '0', '#1', '0', '#0']
+phonemes_res ==> ['x', 'ia4', 'm', 'ian4', 'sh', 'iii4', 'sp3', 'g', 'e2', 'sh', 'iii4', 'd', 'e5', 'sh', 'u4', 'x', 've2', 'g', 'ong1', 'sh', 'iii4', 'sp3', 'AH0', 'EH1', 'K', 'S', 'd', 'e5', 'p', 'ing2', 'f', 'ang1', 'j', 'ia1', 'B', 'IY1', 'EH1', 'K', 'S', 'j', 'ia1', 'S', 'IY1', 'd', 'eng3', 'v2', 'l', 'ing2', 'x', 'ia4', 'm', 'ian4', 'sh', 'iii4']
+poly phonemes: ['ge2', 'shi4', 'de5', 'shu4', 'shi4', 'AH0', 'de5', 'ping2', 'fang1', 'yu2', 'ling2']
+a
+g2p bert res: [['mathml ', ['M AE1 TH M AH0 L'], 'en'], ['格 式 的 数 学 公 式 ', ['g  e2', 'sh  iii4', 'd  e5', 'sh  u4', 'x ve2', 'g ong1', 'sh  iii4'], 'cn'], ['a x ', ['AH0', 'EH1 K S'], 'en'], ['的 平 方 加 ', ['d  e5', 'p  ing2', 'f  ang1', 'j ia1'], 'cn'], ['b x ', ['B IY1', 'EH1 K S'], 'en'], ['加 ', ['j ia1'], 'cn'], ['c ', ['S IY1'], 'en'], ['等 于 零 ', ['d eng3', 'v2', 'l  ing2'], 'cn']]
+g2p res: ['M AE1 TH M AH0 L', 'g e2', 'sh iii4', 'd e5', 'sh u4', 'x ve2', 'g ong1', 'sh iii4', 'AH0', 'EH1 K S', 'd e5', 'p ing2', 'f ang1', 'j ia1', 'B IY1', 'EH1 K S', 'j ia1', 'S IY1', 'd eng3', ' v2', 'l ing2']
+['mathml', '格', '式', '的', '数', '学', '公', '式', '，', 'a', 'x', '的', '平', '方', '加', 'b', 'x', '加', 'c', '等', '于', '零']
+['& 格式的数学公式& & & 的平方加  & & 加 & 等于零']
+post process
+['mathml', '格', '式', '的', '数', '学', '公', '式', '，', 'a', 'x', '的', '平', '方', '加', 'b', 'x', '加', 'c', '等', '于', '零']
+[0, 1, 1, 2, 1, 2, 1, 1, 0, 0, 0, 2, 1, 1, 1, 0, 0, 1, 0, 1, 2, 1]
+['M AE1 TH M AH0 L', 'g e2', 'sh iii4', 'd e5', 'sh u4', 'x ve2', 'g ong1', 'sh iii4', 'AH0', 'EH1 K S', 'd e5', 'p ing2', 'f ang1', 'j ia1', 'B IY1', 'EH1 K S', 'j ia1', 'S IY1', 'd eng3', ' v2', 'l ing2']
+rhy_res ==> ['0', '0', '0', '0', '0', '#1', '0', '#0', '0', '#0', '0', '#1', '0', '#0', '0', '#1', '0', '#0', '0', '#3', '0', '#1', '0', '0', '#1', '0', '#1', '0', '#0', '0', '#0', '0', '#1', '0', '#1', '0', '0', '#1', '0', '#1', '0', '#1', '0', '#0', '#1', '0', '#0']
+phonemes_res ==> ['M', 'AE1', 'TH', 'M', 'AH0', 'L', 'g', 'e2', 'sh', 'iii4', 'd', 'e5', 'sh', 'u4', 'x', 've2', 'g', 'ong1', 'sh', 'iii4', 'sp3', 'AH0', 'EH1', 'K', 'S', 'd', 'e5', 'p', 'ing2', 'f', 'ang1', 'j', 'ia1', 'B', 'IY1', 'EH1', 'K', 'S', 'j', 'ia1', 'S', 'IY1', 'd', 'eng3', 'v2', 'l', 'ing2']
+{'text': '#9 hello word! #9 一 会 儿 加 班 #9 下面是 latex 格式的数学公式， 三角形 o c m 近似等于三角形 a b e #9 下面是 asciimath 格式的数学公式， a x 的平方加  b x 加 c 等于零 下面是 mathml 格式的数学公式， a x 的平方加  b x 加 c 等于零', 'phoneme': 'HH AH0 L OW1 W ER1 D i4 h uei2 er2 j ia1 b an1 x ia4 m ian4 sh iii4 L EY1 T EH2 K S g e2 sh iii4 d e5 sh u4 x ve2 g ong1 sh iii4 sp3 s an1 j iao3 x ing2 OW1 S IY1 EH1 M j in4 s ii4 d eng3 v2 s an1 j iao3 x ing2 AH0 B IY1 IY1 x ia4 m ian4 sh iii4 sp3 g e2 sh iii4 d e5 sh u4 x ve2 g ong1 sh iii4 sp3 AH0 EH1 K S d e5 p ing2 f ang1 j ia1 B IY1 EH1 K S j ia1 S IY1 d eng3 v2 l ing2 x ia4 m ian4 sh iii4 M AE1 TH M AH0 L g e2 sh iii4 d e5 sh u4 x ve2 g ong1 sh iii4 sp3 AH0 EH1 K S d e5 p ing2 f ang1 j ia1 B IY1 EH1 K S j ia1 S IY1 d eng3 v2 l ing2', 'audio_info': {'voice_type': 'xiaosi', 'emotion': 'happy', 'lang': 'cn', 'audio_format': 'wav', 'rate': '1', 'pitch': '1', 'volume': '1'}, 'prosody': '0 0 0 #1 0 0 #3 0 #0 0 #0 #1 0 #0 0 #0 0 #0 0 #1 0 #1 0 0 0 0 0 #1 0 #0 0 #0 0 #1 0 #0 0 #1 0 #0 0 #3 0 0 #0 0 #0 0 #1 #1 0 #1 0 #1 0 #0 0 #1 0 #0 #1 0 #0 0 #0 0 #1 #1 0 #1 #1 0 #0 0 #1 0 #3 0 0 #0 0 #0 0 #1 0 #0 0 #1 0 #0 0 #3 0 #1 0 0 #1 0 #1 0 #0 0 #0 0 #1 0 #1 0 0 #1 0 #1 0 #1 0 #0 #1 0 #3 0 #0 0 #1 0 #0 0 0 0 0 0 #1 0 #0 0 #0 0 #1 0 #0 0 #1 0 #0 0 #3 0 #1 0 0 #1 0 #1 0 #0 0 #0 0 #1 0 #1 0 0 #1 0 #1 0 #1 0 #0 #1 0 #0', 'time_log': {'process_time': 1.9813029766082764, 'tts_time': 0.2650933265686035, 'insert_time': 0.002152681350708008, 'convert_time': 0.0025603771209716797}}
+------------------Tal TTS Service------------------
+=====audio name====> bert_ssml_test_2.wav
+-------ssml------
+[['break', '', '3000ms'], ['pinyin', 'HH AH0 L OW1 / W ER1 D /', ['Hello', 'word!']], ['break', '', '100ms'], ['pinyin', 'i4/h uei2/er2/j ia1/b an1/', ['一', '会', '儿', '加', '班']], ['break', '', '1000ms'], ['text', '', '下面是latex格式的数学公式，'], ['math', 'latex', '\\triangle OCM\\cong \\triangle ABE'], ['break', '', '1000ms'], ['text', '', '下面是asciimath格式的数学公式，'], ['math', 'asciimath', 'ax^2+bx+c=0'], ['text', '', '下面是mathml格式的数学公式，'], ['math', 'mathml', '<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>a</mi><mrow><msup><mrow><mi>x</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow><mo>+</mo><mi>b</mi><mi>x</mi><mo>+</mo><mi>c</mi><mo>=</mo><mn>0</mn></math>']]
+三角形 O C M 近似等于 三角形 A B E
+a x 的平方 加 b x 加 c 等于 零
+a x 的平方 加 b x 加 c 等于 零
+poly phonemes: ['HH EH0 L OW1']
+hello
+g2p bert res: [['hello word ', ['HH EH0 L OW1', 'W ER1 D'], 'en']]
+g2p res: ['HH EH0 L OW1', 'W ER1 D']
+['hello', 'word', '!']
+['& &&']
+post process
+['hello', 'word', '!']
+[0, 0, 0]
+['HH EH0 L OW1', 'W ER1 D']
+rhy_res ==> ['0', '0', '0', '#1', '0', '0', '#3', '0']
+phonemes_res ==> ['HH', 'EH0', 'L', 'OW1', 'W', 'ER1', 'D', 'sp3']
+poly phonemes: ['yi2', 'hui4', 'xer']
+g2p bert res: [['一 会 儿 加 班 ', ['i2', 'h  uei4', 'er2', 'j ia1', 'b an1'], 'cn']]
+g2p res: [' i2', 'h uei4', ' er2', 'j ia1', 'b an1']
+['一', '会', '儿', '加', '班']
+['一 会 儿 加 班']
+post process
+['一', '会', '儿', '加', '班']
+[1, 1, 2, 1, 1]
+[' i2', 'h uei4', ' er2', 'j ia1', 'b an1']
+rhy_res ==> ['#0', '0', '#0', '#1', '0', '#0', '0', '#0']
+phonemes_res ==> ['i2', 'h', 'uei4', 'er2', 'j', 'ia1', 'b', 'an1']
+poly phonemes: ['shi4', 'ge2', 'shi4', 'de5', 'shu4', 'shi4', 'jiao3', 'si4', 'yu2', 'jiao3', 'AH0']
+a
+g2p bert res: [['下 面 是 ', ['x ia4', 'm ian4', 'sh  iii4'], 'cn'], ['latex ', ['L EY1 T EH2 K S'], 'en'], ['格 式 的 数 学 公 式 三 角 形 ', ['g  e2', 'sh  iii4', 'd  e5', 'sh  u4', 'x ve2', 'g ong1', 'sh  iii4', 's an1', 'j  iao3', 'x ing2'], 'cn'], ['o c m ', ['OW1', 'S IY1', 'EH1 M'], 'en'], ['近 似 等 于 三 角 形 ', ['j in4', 's  ii4', 'd eng3', 'v2', 's an1', 'j  iao3', 'x ing2'], 'cn'], ['a b e ', ['AH0', 'B IY1', 'IY1'], 'en']]
+g2p res: ['x ia4', 'm ian4', 'sh iii4', 'L EY1 T EH2 K S', 'g e2', 'sh iii4', 'd e5', 'sh u4', 'x ve2', 'g ong1', 'sh iii4', 's an1', 'j iao3', 'x ing2', 'OW1', 'S IY1', 'EH1 M', 'j in4', 's ii4', 'd eng3', ' v2', 's an1', 'j iao3', 'x ing2', 'AH0', 'B IY1', 'IY1']
+['下', '面', '是', 'latex', '格', '式', '的', '数', '学', '公', '式', '，', '三', '角', '形', 'o', 'c', 'm', '近', '似', '等', '于', '三', '角', '形', 'a', 'b', 'e']
+['下面是 & 格式的数学公式& 三角形 & & & 近似等于三角形 & & &']
+post process
+['下', '面', '是', 'latex', '格', '式', '的', '数', '学', '公', '式', '，', '三', '角', '形', 'o', 'c', 'm', '近', '似', '等', '于', '三', '角', '形', 'a', 'b', 'e']
+[1, 2, 1, 0, 1, 1, 2, 1, 2, 1, 1, 0, 1, 1, 1, 0, 0, 0, 1, 2, 1, 2, 1, 1, 1, 0, 0, 0]
+['x ia4', 'm ian4', 'sh iii4', 'L EY1 T EH2 K S', 'g e2', 'sh iii4', 'd e5', 'sh u4', 'x ve2', 'g ong1', 'sh iii4', 's an1', 'j iao3', 'x ing2', 'OW1', 'S IY1', 'EH1 M', 'j in4', 's ii4', 'd eng3', ' v2', 's an1', 'j iao3', 'x ing2', 'AH0', 'B IY1', 'IY1']
+rhy_res ==> ['0', '#0', '0', '#1', '0', '#1', '0', '0', '0', '0', '0', '#1', '0', '#0', '0', '#0', '0', '#1', '0', '#0', '0', '#1', '0', '#0', '0', '#3', '0', '0', '#0', '0', '#0', '0', '#1', '#1', '0', '#1', '0', '#1', '0', '#0', '0', '#1', '0', '#0', '#1', '0', '#0', '0', '#0', '0', '#1', '#1', '0', '#1', '#1']
+phonemes_res ==> ['x', 'ia4', 'm', 'ian4', 'sh', 'iii4', 'L', 'EY1', 'T', 'EH2', 'K', 'S', 'g', 'e2', 'sh', 'iii4', 'd', 'e5', 'sh', 'u4', 'x', 've2', 'g', 'ong1', 'sh', 'iii4', 'sp3', 's', 'an1', 'j', 'iao3', 'x', 'ing2', 'OW1', 'S', 'IY1', 'EH1', 'M', 'j', 'in4', 's', 'ii4', 'd', 'eng3', 'v2', 's', 'an1', 'j', 'iao3', 'x', 'ing2', 'AH0', 'B', 'IY1', 'IY1']
+poly phonemes: ['shi4', 'ge2', 'shi4', 'de5', 'shu4', 'shi4', 'AH0', 'de5', 'ping2', 'fang1', 'yu2', 'ling2', 'shi4']
+a
+g2p bert res: [['下 面 是 ', ['x ia4', 'm ian4', 'sh  iii4'], 'cn'], ['asciimath ', ['#3'], 'en'], ['格 式 的 数 学 公 式 ', ['g  e2', 'sh  iii4', 'd  e5', 'sh  u4', 'x ve2', 'g ong1', 'sh  iii4'], 'cn'], ['a x ', ['AH0', 'EH1 K S'], 'en'], ['的 平 方 加 ', ['d  e5', 'p  ing2', 'f  ang1', 'j ia1'], 'cn'], ['b x ', ['B IY1', 'EH1 K S'], 'en'], ['加 ', ['j ia1'], 'cn'], ['c ', ['S IY1'], 'en'], ['等 于 零 下 面 是 ', ['d eng3', 'v2', 'l  ing2', 'x ia4', 'm ian4', 'sh  iii4'], 'cn']]
+g2p res: ['x ia4', 'm ian4', 'sh iii4', '#3', 'g e2', 'sh iii4', 'd e5', 'sh u4', 'x ve2', 'g ong1', 'sh iii4', 'AH0', 'EH1 K S', 'd e5', 'p ing2', 'f ang1', 'j ia1', 'B IY1', 'EH1 K S', 'j ia1', 'S IY1', 'd eng3', ' v2', 'l ing2', 'x ia4', 'm ian4', 'sh iii4']
+['下', '面', '是', 'asciimath', '格', '式', '的', '数', '学', '公', '式', '，', 'a', 'x', '的', '平', '方', '加', 'b', 'x', '加', 'c', '等', '于', '零', '下', '面', '是']
+['下面是 & 格式的数学公式& & & 的平方加  & & 加 & 等于零 下面是']
+post process
+['下', '面', '是', 'asciimath', '格', '式', '的', '数', '学', '公', '式', '，', 'a', 'x', '的', '平', '方', '加', 'b', 'x', '加', 'c', '等', '于', '零', '下', '面', '是']
+[1, 2, 1, 0, 1, 1, 2, 1, 2, 1, 1, 0, 0, 0, 2, 1, 1, 1, 0, 0, 1, 0, 1, 2, 4, 1, 2, 1]
+['x ia4', 'm ian4', 'sh iii4', '#3', 'g e2', 'sh iii4', 'd e5', 'sh u4', 'x ve2', 'g ong1', 'sh iii4', 'AH0', 'EH1 K S', 'd e5', 'p ing2', 'f ang1', 'j ia1', 'B IY1', 'EH1 K S', 'j ia1', 'S IY1', 'd eng3', ' v2', 'l ing2', 'x ia4', 'm ian4', 'sh iii4']
+rhy_res ==> ['0', '#0', '0', '#1', '0', '#3', '0', '0', '#0', '0', '#0', '0', '#1', '0', '#0', '0', '#1', '0', '#0', '0', '#3', '0', '#1', '0', '0', '#1', '0', '#1', '0', '#0', '0', '#0', '0', '#1', '0', '#1', '0', '0', '#1', '0', '#1', '0', '#1', '0', '#0', '#1', '0', '#3', '0', '#0', '0', '#1', '0', '#0']
+phonemes_res ==> ['x', 'ia4', 'm', 'ian4', 'sh', 'iii4', 'sp3', 'g', 'e2', 'sh', 'iii4', 'd', 'e5', 'sh', 'u4', 'x', 've2', 'g', 'ong1', 'sh', 'iii4', 'sp3', 'AH0', 'EH1', 'K', 'S', 'd', 'e5', 'p', 'ing2', 'f', 'ang1', 'j', 'ia1', 'B', 'IY1', 'EH1', 'K', 'S', 'j', 'ia1', 'S', 'IY1', 'd', 'eng3', 'v2', 'l', 'ing2', 'x', 'ia4', 'm', 'ian4', 'sh', 'iii4']
+poly phonemes: ['ge2', 'shi4', 'de5', 'shu4', 'shi4', 'AH0', 'de5', 'ping2', 'fang1', 'yu2', 'ling2']
+a
+g2p bert res: [['mathml ', ['M AE1 TH M AH0 L'], 'en'], ['格 式 的 数 学 公 式 ', ['g  e2', 'sh  iii4', 'd  e5', 'sh  u4', 'x ve2', 'g ong1', 'sh  iii4'], 'cn'], ['a x ', ['AH0', 'EH1 K S'], 'en'], ['的 平 方 加 ', ['d  e5', 'p  ing2', 'f  ang1', 'j ia1'], 'cn'], ['b x ', ['B IY1', 'EH1 K S'], 'en'], ['加 ', ['j ia1'], 'cn'], ['c ', ['S IY1'], 'en'], ['等 于 零 ', ['d eng3', 'v2', 'l  ing2'], 'cn']]
+g2p res: ['M AE1 TH M AH0 L', 'g e2', 'sh iii4', 'd e5', 'sh u4', 'x ve2', 'g ong1', 'sh iii4', 'AH0', 'EH1 K S', 'd e5', 'p ing2', 'f ang1', 'j ia1', 'B IY1', 'EH1 K S', 'j ia1', 'S IY1', 'd eng3', ' v2', 'l ing2']
+['mathml', '格', '式', '的', '数', '学', '公', '式', '，', 'a', 'x', '的', '平', '方', '加', 'b', 'x', '加', 'c', '等', '于', '零']
+['& 格式的数学公式& & & 的平方加  & & 加 & 等于零']
+post process
+['mathml', '格', '式', '的', '数', '学', '公', '式', '，', 'a', 'x', '的', '平', '方', '加', 'b', 'x', '加', 'c', '等', '于', '零']
+[0, 1, 1, 2, 1, 2, 1, 1, 0, 0, 0, 2, 1, 1, 1, 0, 0, 1, 0, 1, 2, 1]
+['M AE1 TH M AH0 L', 'g e2', 'sh iii4', 'd e5', 'sh u4', 'x ve2', 'g ong1', 'sh iii4', 'AH0', 'EH1 K S', 'd e5', 'p ing2', 'f ang1', 'j ia1', 'B IY1', 'EH1 K S', 'j ia1', 'S IY1', 'd eng3', ' v2', 'l ing2']
+rhy_res ==> ['0', '0', '0', '0', '0', '#1', '0', '#0', '0', '#0', '0', '#1', '0', '#0', '0', '#1', '0', '#0', '0', '#3', '0', '#1', '0', '0', '#1', '0', '#1', '0', '#0', '0', '#0', '0', '#1', '0', '#1', '0', '0', '#1', '0', '#1', '0', '#1', '0', '#0', '#1', '0', '#0']
+phonemes_res ==> ['M', 'AE1', 'TH', 'M', 'AH0', 'L', 'g', 'e2', 'sh', 'iii4', 'd', 'e5', 'sh', 'u4', 'x', 've2', 'g', 'ong1', 'sh', 'iii4', 'sp3', 'AH0', 'EH1', 'K', 'S', 'd', 'e5', 'p', 'ing2', 'f', 'ang1', 'j', 'ia1', 'B', 'IY1', 'EH1', 'K', 'S', 'j', 'ia1', 'S', 'IY1', 'd', 'eng3', 'v2', 'l', 'ing2']
+{'text': '#9 hello word! #9 一 会 儿 加 班 #9 下面是 latex 格式的数学公式， 三角形 o c m 近似等于三角形 a b e #9 下面是 asciimath 格式的数学公式， a x 的平方加  b x 加 c 等于零 下面是 mathml 格式的数学公式， a x 的平方加  b x 加 c 等于零', 'phoneme': 'HH AH0 L OW1 W ER1 D i4 h uei2 er2 j ia1 b an1 x ia4 m ian4 sh iii4 L EY1 T EH2 K S g e2 sh iii4 d e5 sh u4 x ve2 g ong1 sh iii4 sp3 s an1 j iao3 x ing2 OW1 S IY1 EH1 M j in4 s ii4 d eng3 v2 s an1 j iao3 x ing2 AH0 B IY1 IY1 x ia4 m ian4 sh iii4 sp3 g e2 sh iii4 d e5 sh u4 x ve2 g ong1 sh iii4 sp3 AH0 EH1 K S d e5 p ing2 f ang1 j ia1 B IY1 EH1 K S j ia1 S IY1 d eng3 v2 l ing2 x ia4 m ian4 sh iii4 M AE1 TH M AH0 L g e2 sh iii4 d e5 sh u4 x ve2 g ong1 sh iii4 sp3 AH0 EH1 K S d e5 p ing2 f ang1 j ia1 B IY1 EH1 K S j ia1 S IY1 d eng3 v2 l ing2', 'audio_info': {'voice_type': 'xiaosi', 'emotion': 'neutral', 'lang': 'cn', 'audio_format': 'wav', 'rate': '1', 'pitch': '1', 'volume': '1'}, 'prosody': '0 0 0 #1 0 0 #3 0 #0 0 #0 #1 0 #0 0 #0 0 #0 0 #1 0 #1 0 0 0 0 0 #1 0 #0 0 #0 0 #1 0 #0 0 #1 0 #0 0 #3 0 0 #0 0 #0 0 #1 #1 0 #1 0 #1 0 #0 0 #1 0 #0 #1 0 #0 0 #0 0 #1 #1 0 #1 #1 0 #0 0 #1 0 #3 0 0 #0 0 #0 0 #1 0 #0 0 #1 0 #0 0 #3 0 #1 0 0 #1 0 #1 0 #0 0 #0 0 #1 0 #1 0 0 #1 0 #1 0 #1 0 #0 #1 0 #3 0 #0 0 #1 0 #0 0 0 0 0 0 #1 0 #0 0 #0 0 #1 0 #0 0 #1 0 #0 0 #3 0 #1 0 0 #1 0 #1 0 #0 0 #0 0 #1 0 #1 0 0 #1 0 #1 0 #1 0 #0 #1 0 #0', 'time_log': {'process_time': 1.8887131214141846, 'tts_time': 2.3541102409362793, 'insert_time': 0.0025107860565185547, 'convert_time': 0.002225160598754883}}
+------------------Tal TTS Service------------------
+=====audio name====> bert_ssml_test_2.wav
+-------ssml------
+[['break', '', '3000ms'], ['pinyin', 'HH AH0 L OW1 / W ER1 D /', ['Hello', 'word!']], ['break', '', '100ms'], ['pinyin', 'i4/h uei2/er2/j ia1/b an1/', ['一', '会', '儿', '加', '班']], ['break', '', '1000ms'], ['text', '', '下面是latex格式的数学公式，'], ['math', 'latex', '\\triangle OCM\\cong \\triangle ABE'], ['break', '', '1000ms'], ['text', '', '下面是asciimath格式的数学公式，'], ['math', 'asciimath', 'ax^2+bx+c=0'], ['text', '', '下面是mathml格式的数学公式，'], ['math', 'mathml', '<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>a</mi><mrow><msup><mrow><mi>x</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow><mo>+</mo><mi>b</mi><mi>x</mi><mo>+</mo><mi>c</mi><mo>=</mo><mn>0</mn></math>']]
+三角形 O C M 近似等于 三角形 A B E
+a x 的平方 加 b x 加 c 等于 零
+a x 的平方 加 b x 加 c 等于 零
+poly phonemes: ['HH EH0 L OW1']
+hello
+g2p bert res: [['hello word ', ['HH EH0 L OW1', 'W ER1 D'], 'en']]
+g2p res: ['HH EH0 L OW1', 'W ER1 D']
+['hello', 'word', '!']
+['& &&']
+post process
+['hello', 'word', '!']
+[0, 0, 0]
+['HH EH0 L OW1', 'W ER1 D']
+rhy_res ==> ['0', '0', '0', '#1', '0', '0', '#3', '0']
+phonemes_res ==> ['HH', 'EH0', 'L', 'OW1', 'W', 'ER1', 'D', 'sp3']
+poly phonemes: ['yi2', 'hui4', 'xer']
+g2p bert res: [['一 会 儿 加 班 ', ['i2', 'h  uei4', 'er2', 'j ia1', 'b an1'], 'cn']]
+g2p res: [' i2', 'h uei4', ' er2', 'j ia1', 'b an1']
+['一', '会', '儿', '加', '班']
+['一 会 儿 加 班']
+post process
+['一', '会', '儿', '加', '班']
+[1, 1, 2, 1, 1]
+[' i2', 'h uei4', ' er2', 'j ia1', 'b an1']
+rhy_res ==> ['#0', '0', '#0', '#1', '0', '#0', '0', '#0']
+phonemes_res ==> ['i2', 'h', 'uei4', 'er2', 'j', 'ia1', 'b', 'an1']
+poly phonemes: ['shi4', 'ge2', 'shi4', 'de5', 'shu4', 'shi4', 'jiao3', 'si4', 'yu2', 'jiao3', 'AH0']
+a
+g2p bert res: [['下 面 是 ', ['x ia4', 'm ian4', 'sh  iii4'], 'cn'], ['latex ', ['L EY1 T EH2 K S'], 'en'], ['格 式 的 数 学 公 式 三 角 形 ', ['g  e2', 'sh  iii4', 'd  e5', 'sh  u4', 'x ve2', 'g ong1', 'sh  iii4', 's an1', 'j  iao3', 'x ing2'], 'cn'], ['o c m ', ['OW1', 'S IY1', 'EH1 M'], 'en'], ['近 似 等 于 三 角 形 ', ['j in4', 's  ii4', 'd eng3', 'v2', 's an1', 'j  iao3', 'x ing2'], 'cn'], ['a b e ', ['AH0', 'B IY1', 'IY1'], 'en']]
+g2p res: ['x ia4', 'm ian4', 'sh iii4', 'L EY1 T EH2 K S', 'g e2', 'sh iii4', 'd e5', 'sh u4', 'x ve2', 'g ong1', 'sh iii4', 's an1', 'j iao3', 'x ing2', 'OW1', 'S IY1', 'EH1 M', 'j in4', 's ii4', 'd eng3', ' v2', 's an1', 'j iao3', 'x ing2', 'AH0', 'B IY1', 'IY1']
+['下', '面', '是', 'latex', '格', '式', '的', '数', '学', '公', '式', '，', '三', '角', '形', 'o', 'c', 'm', '近', '似', '等', '于', '三', '角', '形', 'a', 'b', 'e']
+['下面是 & 格式的数学公式& 三角形 & & & 近似等于三角形 & & &']
+post process
+['下', '面', '是', 'latex', '格', '式', '的', '数', '学', '公', '式', '，', '三', '角', '形', 'o', 'c', 'm', '近', '似', '等', '于', '三', '角', '形', 'a', 'b', 'e']
+[1, 2, 1, 0, 1, 1, 2, 1, 2, 1, 1, 0, 1, 1, 1, 0, 0, 0, 1, 2, 1, 2, 1, 1, 1, 0, 0, 0]
+['x ia4', 'm ian4', 'sh iii4', 'L EY1 T EH2 K S', 'g e2', 'sh iii4', 'd e5', 'sh u4', 'x ve2', 'g ong1', 'sh iii4', 's an1', 'j iao3', 'x ing2', 'OW1', 'S IY1', 'EH1 M', 'j in4', 's ii4', 'd eng3', ' v2', 's an1', 'j iao3', 'x ing2', 'AH0', 'B IY1', 'IY1']
+rhy_res ==> ['0', '#0', '0', '#1', '0', '#1', '0', '0', '0', '0', '0', '#1', '0', '#0', '0', '#0', '0', '#1', '0', '#0', '0', '#1', '0', '#0', '0', '#3', '0', '0', '#0', '0', '#0', '0', '#1', '#1', '0', '#1', '0', '#1', '0', '#0', '0', '#1', '0', '#0', '#1', '0', '#0', '0', '#0', '0', '#1', '#1', '0', '#1', '#1']
+phonemes_res ==> ['x', 'ia4', 'm', 'ian4', 'sh', 'iii4', 'L', 'EY1', 'T', 'EH2', 'K', 'S', 'g', 'e2', 'sh', 'iii4', 'd', 'e5', 'sh', 'u4', 'x', 've2', 'g', 'ong1', 'sh', 'iii4', 'sp3', 's', 'an1', 'j', 'iao3', 'x', 'ing2', 'OW1', 'S', 'IY1', 'EH1', 'M', 'j', 'in4', 's', 'ii4', 'd', 'eng3', 'v2', 's', 'an1', 'j', 'iao3', 'x', 'ing2', 'AH0', 'B', 'IY1', 'IY1']
+poly phonemes: ['shi4', 'ge2', 'shi4', 'de5', 'shu4', 'shi4', 'AH0', 'de5', 'ping2', 'fang1', 'yu2', 'ling2', 'shi4']
+a
+g2p bert res: [['下 面 是 ', ['x ia4', 'm ian4', 'sh  iii4'], 'cn'], ['asciimath ', ['#3'], 'en'], ['格 式 的 数 学 公 式 ', ['g  e2', 'sh  iii4', 'd  e5', 'sh  u4', 'x ve2', 'g ong1', 'sh  iii4'], 'cn'], ['a x ', ['AH0', 'EH1 K S'], 'en'], ['的 平 方 加 ', ['d  e5', 'p  ing2', 'f  ang1', 'j ia1'], 'cn'], ['b x ', ['B IY1', 'EH1 K S'], 'en'], ['加 ', ['j ia1'], 'cn'], ['c ', ['S IY1'], 'en'], ['等 于 零 下 面 是 ', ['d eng3', 'v2', 'l  ing2', 'x ia4', 'm ian4', 'sh  iii4'], 'cn']]
+g2p res: ['x ia4', 'm ian4', 'sh iii4', '#3', 'g e2', 'sh iii4', 'd e5', 'sh u4', 'x ve2', 'g ong1', 'sh iii4', 'AH0', 'EH1 K S', 'd e5', 'p ing2', 'f ang1', 'j ia1', 'B IY1', 'EH1 K S', 'j ia1', 'S IY1', 'd eng3', ' v2', 'l ing2', 'x ia4', 'm ian4', 'sh iii4']
+['下', '面', '是', 'asciimath', '格', '式', '的', '数', '学', '公', '式', '，', 'a', 'x', '的', '平', '方', '加', 'b', 'x', '加', 'c', '等', '于', '零', '下', '面', '是']
+['下面是 & 格式的数学公式& & & 的平方加  & & 加 & 等于零 下面是']
+post process
+['下', '面', '是', 'asciimath', '格', '式', '的', '数', '学', '公', '式', '，', 'a', 'x', '的', '平', '方', '加', 'b', 'x', '加', 'c', '等', '于', '零', '下', '面', '是']
+[1, 2, 1, 0, 1, 1, 2, 1, 2, 1, 1, 0, 0, 0, 2, 1, 1, 1, 0, 0, 1, 0, 1, 2, 4, 1, 2, 1]
+['x ia4', 'm ian4', 'sh iii4', '#3', 'g e2', 'sh iii4', 'd e5', 'sh u4', 'x ve2', 'g ong1', 'sh iii4', 'AH0', 'EH1 K S', 'd e5', 'p ing2', 'f ang1', 'j ia1', 'B IY1', 'EH1 K S', 'j ia1', 'S IY1', 'd eng3', ' v2', 'l ing2', 'x ia4', 'm ian4', 'sh iii4']
+rhy_res ==> ['0', '#0', '0', '#1', '0', '#3', '0', '0', '#0', '0', '#0', '0', '#1', '0', '#0', '0', '#1', '0', '#0', '0', '#3', '0', '#1', '0', '0', '#1', '0', '#1', '0', '#0', '0', '#0', '0', '#1', '0', '#1', '0', '0', '#1', '0', '#1', '0', '#1', '0', '#0', '#1', '0', '#3', '0', '#0', '0', '#1', '0', '#0']
+phonemes_res ==> ['x', 'ia4', 'm', 'ian4', 'sh', 'iii4', 'sp3', 'g', 'e2', 'sh', 'iii4', 'd', 'e5', 'sh', 'u4', 'x', 've2', 'g', 'ong1', 'sh', 'iii4', 'sp3', 'AH0', 'EH1', 'K', 'S', 'd', 'e5', 'p', 'ing2', 'f', 'ang1', 'j', 'ia1', 'B', 'IY1', 'EH1', 'K', 'S', 'j', 'ia1', 'S', 'IY1', 'd', 'eng3', 'v2', 'l', 'ing2', 'x', 'ia4', 'm', 'ian4', 'sh', 'iii4']
+poly phonemes: ['ge2', 'shi4', 'de5', 'shu4', 'shi4', 'AH0', 'de5', 'ping2', 'fang1', 'yu2', 'ling2']
+a
+g2p bert res: [['mathml ', ['M AE1 TH M AH0 L'], 'en'], ['格 式 的 数 学 公 式 ', ['g  e2', 'sh  iii4', 'd  e5', 'sh  u4', 'x ve2', 'g ong1', 'sh  iii4'], 'cn'], ['a x ', ['AH0', 'EH1 K S'], 'en'], ['的 平 方 加 ', ['d  e5', 'p  ing2', 'f  ang1', 'j ia1'], 'cn'], ['b x ', ['B IY1', 'EH1 K S'], 'en'], ['加 ', ['j ia1'], 'cn'], ['c ', ['S IY1'], 'en'], ['等 于 零 ', ['d eng3', 'v2', 'l  ing2'], 'cn']]
+g2p res: ['M AE1 TH M AH0 L', 'g e2', 'sh iii4', 'd e5', 'sh u4', 'x ve2', 'g ong1', 'sh iii4', 'AH0', 'EH1 K S', 'd e5', 'p ing2', 'f ang1', 'j ia1', 'B IY1', 'EH1 K S', 'j ia1', 'S IY1', 'd eng3', ' v2', 'l ing2']
+['mathml', '格', '式', '的', '数', '学', '公', '式', '，', 'a', 'x', '的', '平', '方', '加', 'b', 'x', '加', 'c', '等', '于', '零']
+['& 格式的数学公式& & & 的平方加  & & 加 & 等于零']
+post process
+['mathml', '格', '式', '的', '数', '学', '公', '式', '，', 'a', 'x', '的', '平', '方', '加', 'b', 'x', '加', 'c', '等', '于', '零']
+[0, 1, 1, 2, 1, 2, 1, 1, 0, 0, 0, 2, 1, 1, 1, 0, 0, 1, 0, 1, 2, 1]
+['M AE1 TH M AH0 L', 'g e2', 'sh iii4', 'd e5', 'sh u4', 'x ve2', 'g ong1', 'sh iii4', 'AH0', 'EH1 K S', 'd e5', 'p ing2', 'f ang1', 'j ia1', 'B IY1', 'EH1 K S', 'j ia1', 'S IY1', 'd eng3', ' v2', 'l ing2']
+rhy_res ==> ['0', '0', '0', '0', '0', '#1', '0', '#0', '0', '#0', '0', '#1', '0', '#0', '0', '#1', '0', '#0', '0', '#3', '0', '#1', '0', '0', '#1', '0', '#1', '0', '#0', '0', '#0', '0', '#1', '0', '#1', '0', '0', '#1', '0', '#1', '0', '#1', '0', '#0', '#1', '0', '#0']
+phonemes_res ==> ['M', 'AE1', 'TH', 'M', 'AH0', 'L', 'g', 'e2', 'sh', 'iii4', 'd', 'e5', 'sh', 'u4', 'x', 've2', 'g', 'ong1', 'sh', 'iii4', 'sp3', 'AH0', 'EH1', 'K', 'S', 'd', 'e5', 'p', 'ing2', 'f', 'ang1', 'j', 'ia1', 'B', 'IY1', 'EH1', 'K', 'S', 'j', 'ia1', 'S', 'IY1', 'd', 'eng3', 'v2', 'l', 'ing2']
+{'text': '#9 hello word! #9 一 会 儿 加 班 #9 下面是 latex 格式的数学公式， 三角形 o c m 近似等于三角形 a b e #9 下面是 asciimath 格式的数学公式， a x 的平方加  b x 加 c 等于零 下面是 mathml 格式的数学公式， a x 的平方加  b x 加 c 等于零', 'phoneme': 'HH AH0 L OW1 W ER1 D i4 h uei2 er2 j ia1 b an1 x ia4 m ian4 sh iii4 L EY1 T EH2 K S g e2 sh iii4 d e5 sh u4 x ve2 g ong1 sh iii4 sp3 s an1 j iao3 x ing2 OW1 S IY1 EH1 M j in4 s ii4 d eng3 v2 s an1 j iao3 x ing2 AH0 B IY1 IY1 x ia4 m ian4 sh iii4 sp3 g e2 sh iii4 d e5 sh u4 x ve2 g ong1 sh iii4 sp3 AH0 EH1 K S d e5 p ing2 f ang1 j ia1 B IY1 EH1 K S j ia1 S IY1 d eng3 v2 l ing2 x ia4 m ian4 sh iii4 M AE1 TH M AH0 L g e2 sh iii4 d e5 sh u4 x ve2 g ong1 sh iii4 sp3 AH0 EH1 K S d e5 p ing2 f ang1 j ia1 B IY1 EH1 K S j ia1 S IY1 d eng3 v2 l ing2', 'audio_info': {'voice_type': 'xiaosi', 'emotion': 'neutral', 'lang': 'cn', 'audio_format': 'wav', 'rate': '1', 'pitch': '1', 'volume': '1'}, 'prosody': '0 0 0 #1 0 0 #3 0 #0 0 #0 #1 0 #0 0 #0 0 #0 0 #1 0 #1 0 0 0 0 0 #1 0 #0 0 #0 0 #1 0 #0 0 #1 0 #0 0 #3 0 0 #0 0 #0 0 #1 #1 0 #1 0 #1 0 #0 0 #1 0 #0 #1 0 #0 0 #0 0 #1 #1 0 #1 #1 0 #0 0 #1 0 #3 0 0 #0 0 #0 0 #1 0 #0 0 #1 0 #0 0 #3 0 #1 0 0 #1 0 #1 0 #0 0 #0 0 #1 0 #1 0 0 #1 0 #1 0 #1 0 #0 #1 0 #3 0 #0 0 #1 0 #0 0 0 0 0 0 #1 0 #0 0 #0 0 #1 0 #0 0 #1 0 #0 0 #3 0 #1 0 0 #1 0 #1 0 #0 0 #0 0 #1 0 #1 0 0 #1 0 #1 0 #1 0 #0 #1 0 #0', 'time_log': {'process_time': 1.8254623413085938, 'tts_time': 0.28998470306396484, 'insert_time': 0.002198934555053711, 'convert_time': 0.002147197723388672}}
+------------------Tal TTS Service------------------
+=====audio name====> bert_ssml_test_2.wav
+-------ssml------
+[['break', '', '3000ms'], ['pinyin', 'HH AH0 L OW1 / W ER1 D /', ['Hello', 'word!']], ['break', '', '100ms'], ['pinyin', 'i4/h uei2/er2/j ia1/b an1/', ['一', '会', '儿', '加', '班']], ['break', '', '1000ms'], ['text', '', '下面是latex格式的数学公式，'], ['math', 'latex', '\\triangle OCM\\cong \\triangle ABE'], ['break', '', '1000ms'], ['text', '', '下面是asciimath格式的数学公式，'], ['math', 'asciimath', 'ax^2+bx+c=0'], ['text', '', '下面是mathml格式的数学公式，'], ['math', 'mathml', '<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>a</mi><mrow><msup><mrow><mi>x</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow><mo>+</mo><mi>b</mi><mi>x</mi><mo>+</mo><mi>c</mi><mo>=</mo><mn>0</mn></math>']]
+math request: 三角形 O C M 近似等于 三角形 A B E，
+三角形 O C M 近似等于 三角形 A B E，
+math request: a x 的平方 加 b x 加 c 等于 零，
+a x 的平方 加 b x 加 c 等于 零，
+math request: a x 的平方 加 b x 加 c 等于 零，
+a x 的平方 加 b x 加 c 等于 零，
+poly phonemes: ['HH EH0 L OW1']
+hello
+g2p bert res: [['hello word ', ['HH EH0 L OW1', 'W ER1 D'], 'en']]
+g2p res: ['HH EH0 L OW1', 'W ER1 D']
+['hello', 'word', '!']
+['& &&']
+post process
+['hello', 'word', '!']
+[0, 0, 0]
+['HH EH0 L OW1', 'W ER1 D']
+rhy_res ==> ['0', '0', '0', '#1', '0', '0', '#3', '0']
+phonemes_res ==> ['HH', 'EH0', 'L', 'OW1', 'W', 'ER1', 'D', 'sp3']
+poly phonemes: ['yi2', 'hui4', 'xer']
+g2p bert res: [['一 会 儿 加 班 ', ['i2', 'h  uei4', 'er2', 'j ia1', 'b an1'], 'cn']]
+g2p res: [' i2', 'h uei4', ' er2', 'j ia1', 'b an1']
+['一', '会', '儿', '加', '班']
+['一 会 儿 加 班']
+post process
+['一', '会', '儿', '加', '班']
+[1, 1, 2, 1, 1]
+[' i2', 'h uei4', ' er2', 'j ia1', 'b an1']
+rhy_res ==> ['#0', '0', '#0', '#1', '0', '#0', '0', '#0']
+phonemes_res ==> ['i2', 'h', 'uei4', 'er2', 'j', 'ia1', 'b', 'an1']
+poly phonemes: ['shi4', 'ge2', 'shi4', 'de5', 'shu4', 'shi4', 'jiao3', 'si4', 'yu2', 'jiao3', 'AH0']
+a
+g2p bert res: [['下 面 是 ', ['x ia4', 'm ian4', 'sh  iii4'], 'cn'], ['latex ', ['L EY1 T EH2 K S'], 'en'], ['格 式 的 数 学 公 式 三 角 形 ', ['g  e2', 'sh  iii4', 'd  e5', 'sh  u4', 'x ve2', 'g ong1', 'sh  iii4', 's an1', 'j  iao3', 'x ing2'], 'cn'], ['o c m ', ['OW1', 'S IY1', 'EH1 M'], 'en'], ['近 似 等 于 三 角 形 ', ['j in4', 's  ii4', 'd eng3', 'v2', 's an1', 'j  iao3', 'x ing2'], 'cn'], ['a b e ', ['AH0', 'B IY1', 'IY1'], 'en']]
+g2p res: ['x ia4', 'm ian4', 'sh iii4', 'L EY1 T EH2 K S', 'g e2', 'sh iii4', 'd e5', 'sh u4', 'x ve2', 'g ong1', 'sh iii4', 's an1', 'j iao3', 'x ing2', 'OW1', 'S IY1', 'EH1 M', 'j in4', 's ii4', 'd eng3', ' v2', 's an1', 'j iao3', 'x ing2', 'AH0', 'B IY1', 'IY1']
+['下', '面', '是', 'latex', '格', '式', '的', '数', '学', '公', '式', '，', '三', '角', '形', 'o', 'c', 'm', '近', '似', '等', '于', '三', '角', '形', 'a', 'b', 'e', '，']
+['下面是 & 格式的数学公式& 三角形 & & & 近似等于三角形 & & & &']
+post process
+['下', '面', '是', 'latex', '格', '式', '的', '数', '学', '公', '式', '，', '三', '角', '形', 'o', 'c', 'm', '近', '似', '等', '于', '三', '角', '形', 'a', 'b', 'e', '，']
+[1, 2, 1, 0, 1, 1, 2, 1, 2, 1, 1, 0, 1, 1, 1, 0, 0, 0, 1, 2, 1, 2, 1, 1, 1, 0, 0, 0, 0]
+['x ia4', 'm ian4', 'sh iii4', 'L EY1 T EH2 K S', 'g e2', 'sh iii4', 'd e5', 'sh u4', 'x ve2', 'g ong1', 'sh iii4', 's an1', 'j iao3', 'x ing2', 'OW1', 'S IY1', 'EH1 M', 'j in4', 's ii4', 'd eng3', ' v2', 's an1', 'j iao3', 'x ing2', 'AH0', 'B IY1', 'IY1']
+rhy_res ==> ['0', '#0', '0', '#1', '0', '#1', '0', '0', '0', '0', '0', '#1', '0', '#0', '0', '#0', '0', '#1', '0', '#0', '0', '#1', '0', '#0', '0', '#3', '0', '0', '#0', '0', '#0', '0', '#1', '#1', '0', '#1', '0', '#1', '0', '#0', '0', '#1', '0', '#0', '#1', '0', '#0', '0', '#0', '0', '#1', '#1', '0', '#1', '#3', '0']
+phonemes_res ==> ['x', 'ia4', 'm', 'ian4', 'sh', 'iii4', 'L', 'EY1', 'T', 'EH2', 'K', 'S', 'g', 'e2', 'sh', 'iii4', 'd', 'e5', 'sh', 'u4', 'x', 've2', 'g', 'ong1', 'sh', 'iii4', 'sp3', 's', 'an1', 'j', 'iao3', 'x', 'ing2', 'OW1', 'S', 'IY1', 'EH1', 'M', 'j', 'in4', 's', 'ii4', 'd', 'eng3', 'v2', 's', 'an1', 'j', 'iao3', 'x', 'ing2', 'AH0', 'B', 'IY1', 'IY1', 'sp3']
+poly phonemes: ['shi4', 'ge2', 'shi4', 'de5', 'shu4', 'shi4', 'AH0', 'de5', 'ping2', 'fang1', 'yu2', 'ling2', 'shi4']
+a
+g2p bert res: [['下 面 是 ', ['x ia4', 'm ian4', 'sh  iii4'], 'cn'], ['asciimath ', ['AE1 S K IY0 M AE1 TH'], 'en'], ['格 式 的 数 学 公 式 ', ['g  e2', 'sh  iii4', 'd  e5', 'sh  u4', 'x ve2', 'g ong1', 'sh  iii4'], 'cn'], ['a x ', ['AH0', 'EH1 K S'], 'en'], ['的 平 方 加 ', ['d  e5', 'p  ing2', 'f  ang1', 'j ia1'], 'cn'], ['b x ', ['B IY1', 'EH1 K S'], 'en'], ['加 ', ['j ia1'], 'cn'], ['c ', ['S IY1'], 'en'], ['等 于 零 下 面 是 ', ['d eng3', 'v2', 'l  ing2', 'x ia4', 'm ian4', 'sh  iii4'], 'cn']]
+g2p res: ['x ia4', 'm ian4', 'sh iii4', 'AE1 S K IY0 M AE1 TH', 'g e2', 'sh iii4', 'd e5', 'sh u4', 'x ve2', 'g ong1', 'sh iii4', 'AH0', 'EH1 K S', 'd e5', 'p ing2', 'f ang1', 'j ia1', 'B IY1', 'EH1 K S', 'j ia1', 'S IY1', 'd eng3', ' v2', 'l ing2', 'x ia4', 'm ian4', 'sh iii4']
+['下', '面', '是', 'asciimath', '格', '式', '的', '数', '学', '公', '式', '，', 'a', 'x', '的', '平', '方', '加', 'b', 'x', '加', 'c', '等', '于', '零', '，', '下', '面', '是']
+['下面是 & 格式的数学公式& & & 的平方加  & & 加 & 等于零& 下面是']
+post process
+['下', '面', '是', 'asciimath', '格', '式', '的', '数', '学', '公', '式', '，', 'a', 'x', '的', '平', '方', '加', 'b', 'x', '加', 'c', '等', '于', '零', '，', '下', '面', '是']
+[1, 2, 1, 0, 1, 1, 2, 1, 2, 1, 1, 0, 0, 0, 2, 1, 1, 1, 0, 0, 1, 0, 1, 2, 1, 0, 1, 2, 1]
+['x ia4', 'm ian4', 'sh iii4', 'AE1 S K IY0 M AE1 TH', 'g e2', 'sh iii4', 'd e5', 'sh u4', 'x ve2', 'g ong1', 'sh iii4', 'AH0', 'EH1 K S', 'd e5', 'p ing2', 'f ang1', 'j ia1', 'B IY1', 'EH1 K S', 'j ia1', 'S IY1', 'd eng3', ' v2', 'l ing2', 'x ia4', 'm ian4', 'sh iii4']
+rhy_res ==> ['0', '#0', '0', '#1', '0', '#1', '0', '0', '0', '0', '0', '0', '#1', '0', '#0', '0', '#0', '0', '#1', '0', '#0', '0', '#1', '0', '#0', '0', '#3', '0', '#1', '0', '0', '#1', '0', '#1', '0', '#0', '0', '#0', '0', '#1', '0', '#1', '0', '0', '#1', '0', '#1', '0', '#1', '0', '#0', '#1', '0', '#3', '0', '0', '#0', '0', '#1', '0', '#0']
+phonemes_res ==> ['x', 'ia4', 'm', 'ian4', 'sh', 'iii4', 'AE1', 'S', 'K', 'IY0', 'M', 'AE1', 'TH', 'g', 'e2', 'sh', 'iii4', 'd', 'e5', 'sh', 'u4', 'x', 've2', 'g', 'ong1', 'sh', 'iii4', 'sp3', 'AH0', 'EH1', 'K', 'S', 'd', 'e5', 'p', 'ing2', 'f', 'ang1', 'j', 'ia1', 'B', 'IY1', 'EH1', 'K', 'S', 'j', 'ia1', 'S', 'IY1', 'd', 'eng3', 'v2', 'l', 'ing2', 'sp3', 'x', 'ia4', 'm', 'ian4', 'sh', 'iii4']
+poly phonemes: ['ge2', 'shi4', 'de5', 'shu4', 'shi4', 'AH0', 'de5', 'ping2', 'fang1', 'yu2', 'ling2']
+a
+g2p bert res: [['mathml ', ['M AE1 TH M AH0 L'], 'en'], ['格 式 的 数 学 公 式 ', ['g  e2', 'sh  iii4', 'd  e5', 'sh  u4', 'x ve2', 'g ong1', 'sh  iii4'], 'cn'], ['a x ', ['AH0', 'EH1 K S'], 'en'], ['的 平 方 加 ', ['d  e5', 'p  ing2', 'f  ang1', 'j ia1'], 'cn'], ['b x ', ['B IY1', 'EH1 K S'], 'en'], ['加 ', ['j ia1'], 'cn'], ['c ', ['S IY1'], 'en'], ['等 于 零 ', ['d eng3', 'v2', 'l  ing2'], 'cn']]
+g2p res: ['M AE1 TH M AH0 L', 'g e2', 'sh iii4', 'd e5', 'sh u4', 'x ve2', 'g ong1', 'sh iii4', 'AH0', 'EH1 K S', 'd e5', 'p ing2', 'f ang1', 'j ia1', 'B IY1', 'EH1 K S', 'j ia1', 'S IY1', 'd eng3', ' v2', 'l ing2']
+['mathml', '格', '式', '的', '数', '学', '公', '式', '，', 'a', 'x', '的', '平', '方', '加', 'b', 'x', '加', 'c', '等', '于', '零', '，']
+['& 格式的数学公式& & & 的平方加  & & 加 & 等于零&']
+post process
+['mathml', '格', '式', '的', '数', '学', '公', '式', '，', 'a', 'x', '的', '平', '方', '加', 'b', 'x', '加', 'c', '等', '于', '零', '，']
+[0, 1, 1, 2, 1, 2, 1, 1, 0, 0, 0, 2, 1, 1, 1, 0, 0, 1, 0, 1, 2, 1, 0]
+['M AE1 TH M AH0 L', 'g e2', 'sh iii4', 'd e5', 'sh u4', 'x ve2', 'g ong1', 'sh iii4', 'AH0', 'EH1 K S', 'd e5', 'p ing2', 'f ang1', 'j ia1', 'B IY1', 'EH1 K S', 'j ia1', 'S IY1', 'd eng3', ' v2', 'l ing2']
+rhy_res ==> ['0', '0', '0', '0', '0', '#1', '0', '#0', '0', '#0', '0', '#1', '0', '#0', '0', '#1', '0', '#0', '0', '#3', '0', '#1', '0', '0', '#1', '0', '#1', '0', '#0', '0', '#0', '0', '#1', '0', '#1', '0', '0', '#1', '0', '#1', '0', '#1', '0', '#0', '#1', '0', '#3', '0']
+phonemes_res ==> ['M', 'AE1', 'TH', 'M', 'AH0', 'L', 'g', 'e2', 'sh', 'iii4', 'd', 'e5', 'sh', 'u4', 'x', 've2', 'g', 'ong1', 'sh', 'iii4', 'sp3', 'AH0', 'EH1', 'K', 'S', 'd', 'e5', 'p', 'ing2', 'f', 'ang1', 'j', 'ia1', 'B', 'IY1', 'EH1', 'K', 'S', 'j', 'ia1', 'S', 'IY1', 'd', 'eng3', 'v2', 'l', 'ing2', 'sp3']
+{'text': '#9 hello word! #9 一 会 儿 加 班 #9 下面是 latex 格式的数学公式， 三角形 o c m 近似等于三角形 a b e ， #9 下面是 asciimath 格式的数学公式， a x 的平方加  b x 加 c 等于零， 下面是 mathml 格式的数学公式， a x 的平方加  b x 加 c 等于零，', 'phoneme': 'HH AH0 L OW1 W ER1 D i4 h uei2 er2 j ia1 b an1 x ia4 m ian4 sh iii4 L EY1 T EH2 K S g e2 sh iii4 d e5 sh u4 x ve2 g ong1 sh iii4 sp3 s an1 j iao3 x ing2 OW1 S IY1 EH1 M j in4 s ii4 d eng3 v2 s an1 j iao3 x ing2 AH0 B IY1 IY1 sp3 x ia4 m ian4 sh iii4 AE1 S K IY0 M AE1 TH g e2 sh iii4 d e5 sh u4 x ve2 g ong1 sh iii4 sp3 AH0 EH1 K S d e5 p ing2 f ang1 j ia1 B IY1 EH1 K S j ia1 S IY1 d eng3 v2 l ing2 sp3 x ia4 m ian4 sh iii4 M AE1 TH M AH0 L g e2 sh iii4 d e5 sh u4 x ve2 g ong1 sh iii4 sp3 AH0 EH1 K S d e5 p ing2 f ang1 j ia1 B IY1 EH1 K S j ia1 S IY1 d eng3 v2 l ing2 sp3', 'audio_info': {'voice_type': 'xiaosi', 'emotion': 'neutral', 'lang': 'cn', 'audio_format': 'wav', 'rate': '1', 'pitch': '1', 'volume': '1'}, 'prosody': '0 0 0 #1 0 0 #3 0 #0 0 #0 #1 0 #0 0 #0 0 #0 0 #1 0 #1 0 0 0 0 0 #1 0 #0 0 #0 0 #1 0 #0 0 #1 0 #0 0 #3 0 0 #0 0 #0 0 #1 #1 0 #1 0 #1 0 #0 0 #1 0 #0 #1 0 #0 0 #0 0 #1 #1 0 #1 #3 0 0 #0 0 #1 0 #1 0 0 0 0 0 0 #1 0 #0 0 #0 0 #1 0 #0 0 #1 0 #0 0 #3 0 #1 0 0 #1 0 #1 0 #0 0 #0 0 #1 0 #1 0 0 #1 0 #1 0 #1 0 #0 #1 0 #3 0 0 #0 0 #1 0 #0 0 0 0 0 0 #1 0 #0 0 #0 0 #1 0 #0 0 #1 0 #0 0 #3 0 #1 0 0 #1 0 #1 0 #0 0 #0 0 #1 0 #1 0 0 #1 0 #1 0 #1 0 #0 #1 0 #3 0', 'time_log': {'process_time': 3.043405532836914, 'tts_time': 0.584874153137207, 'insert_time': 0.002302408218383789, 'convert_time': 0.0023641586303710938}}

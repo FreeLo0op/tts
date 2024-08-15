@@ -1,0 +1,5 @@
+<speak voice_type="xiaosi" rate="1" pitch="1" volume="1" emotion='confused'>
+    <break time="3000ms"/>
+    屋漏偏逢连夜雨<break time="3000ms"/>
+    船迟又遇打头风<break time="3000ms"/>
+</speak>

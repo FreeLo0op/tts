@@ -1,0 +1,25 @@
+project: tal_frontend
+version: 1.0.0
+
+
+tts_triton_url: tal-vits-triton-backend-svc.aielearning-hmi-golang:8000
+formular2text_url: http://tal-vits-formula2text-svc.aielearning-hmi-golang:8023/inference
+g2p_pp_url: tal-vits-rhythm-triton-svc.aielearning-hmi-golang:8000
+
+
+senlen: 30
+en_phoneme_ave_len: 6
+g2ppp_model_name: vits_rhy_704
+
+
+
+bert_model_path: /models/asr_models/bert_model/bert-base-multilingual-cased
+
+en_monophone_file: tal_frontend/frontend/g2p/bertg2pw/english_dict.list
+polyphonic_chars_path: tal_frontend/frontend/g2p_pp/POLYPHONIC_CHARS_704.txt
+
+# redis
+
+host: r-2ze6qkzm0iihlbdi67.redis.rds.aliyuncs.com
+password: gIRHF3mjXVqK5F7_
+port: 6379

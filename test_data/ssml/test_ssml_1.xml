@@ -1,0 +1,17 @@
+<speak voice_type="xiaosi" rate="1" pitch="1" volume="1" emotion="confused">
+    <break time="3000ms"/>
+    <phoneme lang="en" ph="HH EH0 L OW1/W ER1 L D">Hello world!</phoneme>
+    <break time="100ms"/>
+    <phoneme lang="cn" ph="yi4/huir2/jia1/ban1">一会儿加班。</phoneme>
+    <break time="1000ms"/>
+    下面是latex格式的数学公式，
+    <math interpret-as="latex">\triangle OCM\cong \triangle ABE</math>
+    <break time="1000ms"/>
+
+    下面是asciimath格式的数学公式，
+    <math interpret-as="asciimath">ax^2+bx+c=0</math>
+
+    下面是mathml格式的数学公式，
+    <math interpret-as="mathml">
+        <mi>a</mi><mrow><msup><mrow><mi>x</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow><mo>+</mo><mi>b</mi><mi>x</mi><mo>+</mo><mi>c</mi><mo>=</mo><mn>0</mn></math>
+</speak>

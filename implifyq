@@ -1,0 +1,65 @@
+[33mcommit aa6cd1f513294f0631969038b768b9a81ecef626[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: liujun5 <liujun5@tal.com>
+Date:   Thu Jul 11 18:02:47 2024 +0800
+
+    update_yaml
+
+[33mcommit 97b684780d65535708910ef583e5b4cfc0d7d802[m
+Author: liujun5 <liujun5@tal.com>
+Date:   Thu Jul 11 17:48:33 2024 +0800
+
+    add batch
+
+[33mcommit 77d411dfa526f3d9bdb66ad237537f7fddfcc998[m
+Author: liujun5 <liujun5@tal.com>
+Date:   Thu Jul 11 16:58:49 2024 +0800
+
+    增加batch
+
+[33mcommit 28ef4a5c0f9391a9eae9a092c9219408b7cf194a[m
+Author: liujun5 <liujun5@tal.com>
+Date:   Thu Jul 11 16:27:54 2024 +0800
+
+    bug_fix
+
+[33mcommit 515591df26f7c62759dba0767b9d072687c2271c[m
+Author: liujun5 <liujun5@tal.com>
+Date:   Wed Jul 10 20:46:23 2024 +0800
+
+    默认pcm
+
+[33mcommit f385c44095d200f7c46acdfda172b7a9c5328136[m
+Author: liujun5 <liujun5@tal.com>
+Date:   Wed Jul 10 16:37:57 2024 +0800
+
+    合并类
+
+[33mcommit 609373a8af42208017ef5c23e472937c9da1d108[m
+Author: liujun5 <liujun5@tal.com>
+Date:   Wed Jul 10 16:02:55 2024 +0800
+
+    改为多进程
+
+[33mcommit befdf64df451ffb1886cda593b3b980b4697f5c2[m
+Author: liujun5 <liujun5@tal.com>
+Date:   Wed Jul 10 14:22:04 2024 +0800
+
+    英语
+
+[33mcommit 0b078d68d5a026fe1fd29510176d9d0b6f51a3fe[m
+Author: liujun5 <liujun5@tal.com>
+Date:   Wed Jul 10 14:13:31 2024 +0800
+
+    bug fix
+
+[33mcommit da80778a50e801afb5da904605b25441dc8be383[m
+Author: liujun5 <liujun5@tal.com>
+Date:   Tue Jul 9 20:42:18 2024 +0800
+
+    aa
+
+[33mcommit e1f95df235b5d741e10c5aaa3b54659fd869942e[m
+Author: liujun5 <liujun5@tal.com>
+Date:   Tue Jul 9 16:19:42 2024 +0800
+
+    Initial commit
